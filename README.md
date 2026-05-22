@@ -201,21 +201,26 @@ Here is a structured look at the technologies, engines, and utilities I leverage
 
 <br>
 
-<!-- TELEMETRY / STATS -->
-### 📈 GitHub Telemetry
+<!-- OPERATIONAL TELEMETRY -->
+### 📊 Operational Telemetry & Activity
 
-<div align="center">
-  <table border="0" cellspacing="10" cellpadding="0">
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=andreafinazziinfo&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&hide_title=true&border_color=09F1B8&bg_color=0d1117&title_color=09F1B8" alt="Andrea's GitHub Stats" height="175" />
-      </td>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andreafinazziinfo&layout=compact&theme=gotham&hide=html,css&border_color=09F1B8&bg_color=0d1117&title_color=09F1B8" alt="Top Languages" height="175" />
-      </td>
-    </tr>
-  </table>
-</div>
+I operate a local-first, high-security workflow. My public GitHub profile reflects only my open-source infrastructure tools, while the bulk of my quantitative analysis and proprietary trading code resides within private, offline repositories:
+
+```
+Operational Cadence (Local vs. Public Distribution)
+
+Local Workspace  [████████████████████████████████████████████] 95% (Private Research & Core Engines)
+Public Gateways  [██] 5% (Developer Experience Tooling & HUDs)
+
+System Activity Flow (Conceptual Mapping)
+   Mon  [░][░][▓][█][▓][░][░]   [░] Base Operations & Monitoring
+   Wed  [░][░][▓][█][█][▓][░]   [▓] Core Engineering & Backtesting
+   Fri  [░][░][░][▓][█][░][░]   [█] Quantitative Deployment Runs
+```
+
+*   **Primary Workspace:** Isolated local Docker-first environments.
+*   **Open-Source Access:** Selective utilities and workflow enhancers.
+*   **Operational Cadence:** Continuous local integration and automated validation.
 
 <br>
 
