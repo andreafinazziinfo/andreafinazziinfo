@@ -1,6 +1,6 @@
 <!-- HERO BANNER SECTION -->
 <div align="center">
-  <img src="./hero-banner.svg" width="100%" alt="Andrea Finazzi - Quantitative Architect &amp; Systems Builder" />
+  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/hero-banner.svg" width="100%" alt="Andrea Finazzi - Quantitative Architect &amp; Systems Builder" />
   
   <br><br>
 
@@ -13,7 +13,7 @@
 </div>
 
 <!-- Dynamic Divider -->
-<img src="./divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -41,7 +41,7 @@ I engineer robust software environments at the convergence of **quantitative sys
 <br>
 
 <!-- Dynamic Divider -->
-<img src="./divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -80,7 +80,7 @@ I engineer robust software environments at the convergence of **quantitative sys
 <br>
 
 <!-- Dynamic Divider -->
-<img src="./divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -108,7 +108,7 @@ I engineer robust software environments at the convergence of **quantitative sys
 <br>
 
 <!-- Dynamic Divider -->
-<img src="./divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -130,49 +130,74 @@ I structure my systems around an absolute segregation between trading execution 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="./divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
 
 <br>
 
-<!-- TECH STACK SECTION -->
-### 🛠️ Tech Stack & Capabilities
+<!-- TECH STACK SECTION (GITHUB-SAFE CLICKABLE ECOSYSTEM) -->
+### 🛠️ Tech Stack & Ecosystem
 
-<div align="center">
-  <table width="100%" border="0" cellspacing="0" cellpadding="5">
-    <tr>
-      <td width="33%" align="center" valign="top">
-        <strong>Core Programming</strong><br><br>
-        <img src="https://img.shields.io/badge/Python-0b0f19?style=flat-square&logo=python&logoColor=09F1B8" alt="Python" />
-        <img src="https://img.shields.io/badge/Rust-0b0f19?style=flat-square&logo=rust&logoColor=8B5CF6" alt="Rust" />
-        <img src="https://img.shields.io/badge/TypeScript-0b0f19?style=flat-square&logo=typescript&logoColor=09F1B8" alt="TypeScript" />
-        <br>
-        <img src="https://img.shields.io/badge/Bash-0b0f19?style=flat-square&logo=gnu-bash&logoColor=8B5CF6" alt="Bash" />
-        <img src="https://img.shields.io/badge/Pine_Script-0b0f19?style=flat-square&logo=tradingview&logoColor=09F1B8" alt="Pine Script" />
-      </td>
-      <td width="33%" align="center" valign="top">
-        <strong>Data &amp; Storage</strong><br><br>
-        <img src="https://img.shields.io/badge/PostgreSQL-0b0f19?style=flat-square&logo=postgresql&logoColor=8B5CF6" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/SQLite-0b0f19?style=flat-square&logo=sqlite&logoColor=09F1B8" alt="SQLite" />
-        <br>
-        <img src="https://img.shields.io/badge/Redis-0b0f19?style=flat-square&logo=redis&logoColor=8B5CF6" alt="Redis" />
-        <img src="https://img.shields.io/badge/pgvector-0b0f19?style=flat-square&logo=postgresql&logoColor=09F1B8" alt="pgvector" />
-      </td>
-      <td width="33%" align="center" valign="top">
-        <strong>Infra &amp; Ecosystem</strong><br><br>
-        <img src="https://img.shields.io/badge/Docker-0b0f19?style=flat-square&logo=docker&logoColor=09F1B8" alt="Docker" />
-        <img src="https://img.shields.io/badge/Git-0b0f19?style=flat-square&logo=git&logoColor=8B5CF6" alt="Git" />
-        <br>
-        <img src="https://img.shields.io/badge/Linux-0b0f19?style=flat-square&logo=linux&logoColor=09F1B8" alt="Linux" />
-        <img src="https://img.shields.io/badge/WSL-0b0f19?style=flat-square&logo=windows&logoColor=8B5CF6" alt="WSL" />
-      </td>
-    </tr>
-  </table>
-</div>
+Here is a structured look at the technologies, engines, and utilities I leverage. All badges are interactive and point to their official documentation gateways:
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>💻 Languages & Dialects</h4>
+      <p>
+        <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-0b0f19?style=flat-square&logo=python&logoColor=09F1B8" alt="Python" /></a>
+        <a href="https://www.rust-lang.org/" target="_blank"><img src="https://img.shields.io/badge/Rust-0b0f19?style=flat-square&logo=rust&logoColor=8B5CF6" alt="Rust" /></a>
+        <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-0b0f19?style=flat-square&logo=typescript&logoColor=09F1B8" alt="TypeScript" /></a>
+        <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://img.shields.io/badge/Bash-0b0f19?style=flat-square&logo=gnu-bash&logoColor=8B5CF6" alt="Bash" /></a>
+        <a href="https://www.tradingview.com/pine-script-docs/" target="_blank"><img src="https://img.shields.io/badge/Pine_Script-0b0f19?style=flat-square&logo=tradingview&logoColor=09F1B8" alt="Pine Script" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ Frameworks & Engines</h4>
+      <p>
+        <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/FastAPI-0b0f19?style=flat-square&logo=fastapi&logoColor=8B5CF6" alt="FastAPI" /></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-0b0f19?style=flat-square&logo=vue.js&logoColor=09F1B8" alt="Vue.js" /></a>
+        <a href="https://vite.dev/" target="_blank"><img src="https://img.shields.io/badge/Vite-0b0f19?style=flat-square&logo=vite&logoColor=8B5CF6" alt="Vite" /></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🗄️ Databases & Vector Storage</h4>
+      <p>
+        <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-0b0f19?style=flat-square&logo=postgresql&logoColor=8B5CF6" alt="PostgreSQL" /></a>
+        <a href="https://www.sqlite.org/" target="_blank"><img src="https://img.shields.io/badge/SQLite-0b0f19?style=flat-square&logo=sqlite&logoColor=09F1B8" alt="SQLite" /></a>
+        <a href="https://github.com/pgvector/pgvector" target="_blank"><img src="https://img.shields.io/badge/pgvector-0b0f19?style=flat-square&logo=postgresql&logoColor=09F1B8" alt="pgvector" /></a>
+        <a href="https://redis.io/" target="_blank"><img src="https://img.shields.io/badge/Redis-0b0f19?style=flat-square&logo=redis&logoColor=8B5CF6" alt="Redis" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🐳 Infrastructure & DevOps</h4>
+      <p>
+        <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-0b0f19?style=flat-square&logo=docker&logoColor=09F1B8" alt="Docker" /></a>
+        <a href="https://docs.docker.com/compose/" target="_blank"><img src="https://img.shields.io/badge/Docker_Compose-0b0f19?style=flat-square&logo=docker&logoColor=8B5CF6" alt="Docker Compose" /></a>
+        <a href="https://www.linux.org/" target="_blank"><img src="https://img.shields.io/badge/Linux-0b0f19?style=flat-square&logo=linux&logoColor=09F1B8" alt="Linux" /></a>
+        <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank"><img src="https://img.shields.io/badge/WSL-0b0f19?style=flat-square&logo=windows&logoColor=8B5CF6" alt="WSL" /></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-0b0f19?style=flat-square&logo=git&logoColor=09F1B8" alt="Git" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary>🛠️ <strong>Click to Expand: Favorite Workspace Tools</strong></summary>
+  <br>
+  <p>
+    <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS_Code-0b0f19?style=flat-square&logo=visual-studio-code&logoColor=8B5CF6" alt="VS Code" /></a>
+    <a href="https://www.tradingview.com/" target="_blank"><img src="https://img.shields.io/badge/TradingView-0b0f19?style=flat-square&logo=tradingview&logoColor=09F1B8" alt="TradingView" /></a>
+    <a href="https://alpinelinux.org/" target="_blank"><img src="https://img.shields.io/badge/Alpine_Linux-0b0f19?style=flat-square&logo=alpine-linux&logoColor=8B5CF6" alt="Alpine Linux" /></a>
+    <a href="https://www.anthropic.com/claude" target="_blank"><img src="https://img.shields.io/badge/Claude_AI-0b0f19?style=flat-square&logo=anthropic&logoColor=09F1B8" alt="Claude AI" /></a>
+  </p>
+</details>
 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="./divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -195,7 +220,7 @@ I structure my systems around an absolute segregation between trading execution 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="./divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
 
 <br>
 
