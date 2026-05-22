@@ -49,7 +49,8 @@
   </defs>
 
   <style>
-    /* CSS Styles & Animations */
+    <![CDATA[
+    /* CSS Styles and Animations */
     .title {
       font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
       font-weight: 800;
@@ -119,6 +120,7 @@
     .drifting-grid {
       /* Keep standard static grid to avoid high CPU usage but look premium */
     }
+    ]]>
   </style>
 
   <!-- Container Base -->
