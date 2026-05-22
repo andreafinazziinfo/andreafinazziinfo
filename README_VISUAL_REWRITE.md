@@ -204,23 +204,23 @@ Here is a structured look at the technologies, engines, and utilities I leverage
 <!-- OPERATIONAL TELEMETRY -->
 ### 📊 Operational Telemetry & Activity
 
-I operate a local-first, high-security workflow. My public GitHub profile reflects only my open-source infrastructure tools, while the bulk of my quantitative analysis and proprietary trading code resides within private, offline repositories:
+I operate a local-first, high-security workflow. My public GitHub profile reflects only my open-source infrastructure tools, while most of my quantitative analysis and proprietary trading code stays private.
 
-```
+```text
 Operational Cadence (Local vs. Public Distribution)
 
 Local Workspace  [████████████████████████████████████████████] 95% (Private Research & Core Engines)
-Public Gateways  [██] 5% (Developer Experience Tooling & HUDs)
+Public Gateways   [██] 5% (Developer Experience Tooling & HUDs)
 
 System Activity Flow (Conceptual Mapping)
-   Mon  [░][░][▓][█][▓][░][░]   [░] Base Operations & Monitoring
-   Wed  [░][░][▓][█][█][▓][░]   [▓] Core Engineering & Backtesting
-   Fri  [░][░][░][▓][█][░][░]   [█] Quantitative Deployment Runs
+Mon  [░][░][▓][█][▓][░][░]   Base Operations & Monitoring
+Wed  [░][░][▓][█][█][▓][░]   Core Engineering & Backtesting
+Fri  [░][░][░][▓][█][░][░]   Quantitative Deployment Runs
 ```
 
-*   **Primary Workspace:** Isolated local Docker-first environments.
-*   **Open-Source Access:** Selective utilities and workflow enhancers.
-*   **Operational Cadence:** Continuous local integration and automated validation.
+- Primary Workspace: Isolated local Docker-first environments.
+- Open-Source Access: Selective utilities and workflow enhancers.
+- Operational Cadence: Continuous local integration and automated validation.
 
 <br>
 
