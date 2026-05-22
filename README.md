@@ -1,71 +1,76 @@
-# 👾 Andrea Finazzi
-
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=09F1B8&center=true&vCenter=true&width=650&lines=Andrea+Finazzi;Self-Made+Software+Engineer;Cycle+Trader+%C2%B7+Platform+Builder;DevOps+%26+Local+AI+Automation" alt="Typing SVG" />
-  </a>
-
-  <p align="center">
-    <strong>Based in Siziano (Lombardy, Italy)</strong>
-  </p>
-</div>
+# Andrea Finazzi
+**Quantitative Developer & Systems Builder**  
+*Siziano, Lombardy, Italy*
 
 ---
 
-### 🧠 Profile
+### 01 / Technical Profile
 
-I am a self-made software engineer and quantitative developer. I specialize in designing and building custom platforms, robust cyclical trading engines, and specialized automation tooling. 
+I develop software for market cycle analysis, custom quantitative platforms, and local developer workflows. My background is self-built, driven by a strict execution-first mindset.
 
-My approach is highly pragmatic and engineering-first: I prioritize developing high-performance local environments, secure data pipelines, and private workflows over public-facing applications. I "build in public" only where it brings concrete, open-source value to the developer community.
-
----
-
-### 📊 Focus Areas
-
-Instead of maintaining a vast showcase of public repositories, I focus my work on several key private systems and custom architectures:
-
-*   📈 **Cyclical Trading & Quantitative Research**
-    *   Development of proprietary market cycle analysis algorithms (identifying market pivots, swings, and multi-timeframe structures).
-    *   Custom indicator scripting and automated backtesting frameworks.
-*   🧠 **Platform Engineering & Local AI Systems**
-    *   Design of orchestration engines for secure, low-token AI agent workflows.
-    *   Industrial-grade ingestion and triage pipelines utilizing local vector databases and knowledge-graph indexing.
-*   🐳 **Infrastructure & Developer Experience**
-    *   Containerized, Docker-first local development ecosystems.
-    *   Specialized CLI utilities, wrapper filters, and status monitoring systems to optimize developer environments.
+Most of my systems run in isolated private environments, focusing on robust local architectures and private execution pipelines. I publish open source only where it brings concrete utility to developer and trading environments.
 
 ---
 
-### 🔌 Featured Public Project
+### 02 / Core Focus & Private Systems
 
-As part of my commitment to improving local developer environments and AI agent workflows, I maintain the following open-source repository:
+Most of my work resides in private execution environments, structured around three core pillars:
+
+*   **📈 Market Cycle Trading Systems**
+    *   Algorithmic research in Pine Script (TradingView), mapping structural cycles, swing extensions, and pivots.
+    *   Custom time-series backtesting engines designed to isolate structural market regimes.
+*   **🧠 Local AI & Knowledge Pipelines**
+    *   Isolated architectures integrating vector databases (`pgvector`, `SQLite`) to securely index and audit research data.
+    *   Custom context routing and token-efficiency orchestration layers for local LLM pipelines.
+*   **🛠️ Developer Experience & Tooling**
+    *   Docker-first local development ecosystems designed for instant bootstrapping and absolute environment isolation.
+    *   High-performance CLI utility wrappers to streamline system tasks and reduce context contamination.
+
+---
+
+### 03 / Selected Public Work
 
 #### ⚡ [claude-statusline-pro](https://github.com/andreafinazziinfo/claude-statusline-pro)
-> A lightweight, 3-line HUD status bar for [Claude Code](https://claude.ai/code) that surfaces AI metrics, git state, token savings, and tool freshness at a glance — without leaving your terminal.
-*   **Key Features:** Real-time token tracking, session cost estimation, Git state integration, and rate-limit tracking with graceful degradation.
-*   **Technologies:** Bash 4+, Git, jq, Python, curl.
+> A terminal HUD status bar for [Claude Code](https://claude.ai/code) surfacing real-time token tracking, API costs, Git status, and tool health directly inside the shell.
+*   **Stack:** Bash 4+, Git, jq, Python 3, curl.
 
 ---
 
-### 🛠️ Tech Stack
+### 04 / Operating Model
+
+I operate under a **Local-First, Isolated-by-Default** methodology.
+
+```
+[ Local Workspace ] ──(Docker Encapsulation)──> [ Private Production (Oracle) ]
+         │
+         └──(Selected Open Source)─────────────> [ Public GitHub Profile ]
+```
+
+*   **Proprietary Core:** System logic, trading execution, and predictive indicators remain private.
+*   **Public Utilities:** General-purpose infrastructure, developer tools, and workflow scripts are shared open-source.
+
+---
+
+### 05 / Core Toolkit
+
+```
+Languages   ::  Rust | Python | TypeScript | Bash | Pine Script | SQL
+Data        ::  PostgreSQL | TimescaleDB | SQLite | pgvector | Redis
+DevOps      ::  Docker | Docker Compose | Git | WSL | Linux
+```
+
+---
+
+### 06 / Session Metrics & Activity
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,py,ts,js,bash,fastapi,vue,vite,postgres,sqlite,redis,docker,git,linux,wsl,github,html,css" alt="My Tech Stack" />
+  <img src="https://github-readme-stats.vercel.app/api?username=andreafinazziinfo&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&hide_title=true&border_color=09F1B8&bg_color=0c1017&title_color=09F1B8" alt="Andrea's GitHub Stats" height="150" />
 </div>
 
 ---
 
-### 📈 GitHub Activity & Stats
+### 07 / Contacts
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=andreafinazziinfo&show_icons=true&theme=gotham&include_all_commits=true&count_private=true" alt="Andrea's GitHub Stats" height="195" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andreafinazziinfo&layout=compact&theme=gotham&hide=html,css" alt="Top Languages" height="195" />
-</div>
-
----
-
-### ✉️ Contact & Links
-
-*   🌍 **Website:** [andreafinazzi.com](https://andreafinazzi.com)
-*   ✉️ **Email:** [andrea.finazzi.info@gmail.com](mailto:andrea.finazzi.info@gmail.com)
-*   💼 **LinkedIn:** [Andrea Finazzi](https://www.linkedin.com/in/andrea-finazzi-placeholder) *(Replace with your actual profile link)*
+*   **Web Portal:** [andreafinazzi.com](https://andreafinazzi.com)
+*   **Secure Email:** [andrea.finazzi.info@gmail.com](mailto:andrea.finazzi.info@gmail.com)
+*   **Professional Networking:** [LinkedIn](https://www.linkedin.com/in/andrea-finazzi-placeholder)
