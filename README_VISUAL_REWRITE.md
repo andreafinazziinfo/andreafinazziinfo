@@ -6,9 +6,9 @@
 
   <!-- Quick Action Badges -->
   <p align="center">
-    <a href="https://andreafinazzi.com"><img src="https://img.shields.io/badge/Web-andreafinazzi.com-09F1B8?style=flat-square&logo=google-chrome&logoColor=black" alt="Website Portal" /></a>
+    <a href="https://andreafinazzi.com"><img src="https://img.shields.io/badge/Web-andreafinazzi.com-181714?style=flat-square&logo=google-chrome&logoColor=d1a759" alt="Website Portal" /></a>
     &nbsp;&nbsp;
-    <a href="mailto:andrea.finazzi.info@gmail.com"><img src="https://img.shields.io/badge/Email-andrea.finazzi.info-8B5CF6?style=flat-square&logo=gmail&logoColor=white" alt="Secure Email" /></a>
+    <a href="mailto:andrea.finazzi.info@gmail.com"><img src="https://img.shields.io/badge/Email-andrea.finazzi.info-181714?style=flat-square&logo=gmail&logoColor=d1a759" alt="Secure Email" /></a>
   </p>
 </div>
 
@@ -20,19 +20,19 @@
 <!-- OPERATIONAL PHILOSOPHY -->
 ### 🧠 Operational Philosophy
 
-> "High-performance logic deserves high-fidelity presentation. Engineering and aesthetics are part of the same standard."
+> "High-performance logic deserves high-fidelity presentation. Research, execution, and monetization must operate as a single self-reinforcing flywheel."
 
-I engineer robust software environments at the convergence of **quantitative systems, local-first AI pipelines, and premium product design**. I believe that internal developer platforms, quantitative tools, and CLI environments should not only perform exceptionally but also provide intuitive, beautiful, and satisfying user experiences.
+I engineer robust quantitative software environments centered around a **self-reinforcing three-engine flywheel**. I believe that deep quantitative research (**Titan**), automated agentic AI orchestration (**Control Plane**), and premium product-market execution (**Cycle Lab**) must operate as a unified, high-fidelity system that maximizes capital efficiency and developer leverage.
 
 <br>
 
-<!-- DISTINCTIVE DETAIL: THE DUAL-HELIX DESIGN CALLOUT -->
+<!-- DISTINCTIVE DETAIL: THE THREE-ENGINE FLYWHEEL CALLOUT -->
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td style="border-left: 4px solid #09F1B8; padding-left: 15px; padding-top: 10px; padding-bottom: 10px; background-color: #0c1020; border-radius: 4px;">
+    <td style="border-left: 4px solid #d1a759; padding-left: 15px; padding-top: 10px; padding-bottom: 10px; background-color: #181714; border-radius: 4px; color: #ece3d8;">
       <p align="left">
-        <strong>🎨 The Dual-Helix Standard: Performance &amp; Aesthetics</strong><br>
-        I reject the paradigm that command-line utilities, automation scripts, or internal dashboards must be visually neglected to be robust. <strong>Developer Experience (DX) is a product.</strong> A beautifully drawn terminal HUD, a clean dataflow scheme, or an aligned coordinate layout reduces cognitive load, minimizes operator error during high-stakes trading cycles, and respects the builder's craft.
+        <strong>🔄 The Technical Flywheel Standard: Unified Operational Leverage</strong><br>
+        Every single project I build must feed into a continuous operational loop. Quantitative research and insights distilled by <strong>Titan</strong> are compiled and automated by <strong>Control Plane</strong>'s AI-orchestrated environments, and then monetized and scaled directly through <strong>Cycle Lab</strong>'s SaaS products and execution bots. <strong>Complexity is compressed, value is captured, and the flywheel accelerates.</strong>
       </p>
     </td>
   </tr>
@@ -99,19 +99,19 @@ Here is a structured look at the technologies, engines, and utilities I leverage
     <td width="50%" valign="top">
       <h4>💻 Languages & Dialects</h4>
       <p>
-        <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-0b0f19?style=flat-square&logo=python&logoColor=09F1B8" alt="Python" /></a>
-        <a href="https://www.rust-lang.org/" target="_blank"><img src="https://img.shields.io/badge/Rust-0b0f19?style=flat-square&logo=rust&logoColor=8B5CF6" alt="Rust" /></a>
-        <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-0b0f19?style=flat-square&logo=typescript&logoColor=09F1B8" alt="TypeScript" /></a>
-        <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://img.shields.io/badge/Bash-0b0f19?style=flat-square&logo=gnu-bash&logoColor=8B5CF6" alt="Bash" /></a>
-        <a href="https://www.tradingview.com/pine-script-docs/" target="_blank"><img src="https://img.shields.io/badge/Pine_Script-0b0f19?style=flat-square&logo=tradingview&logoColor=09F1B8" alt="Pine Script" /></a>
+        <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-181714?style=flat-square&logo=python&logoColor=d1a759" alt="Python" /></a>
+        <a href="https://www.rust-lang.org/" target="_blank"><img src="https://img.shields.io/badge/Rust-181714?style=flat-square&logo=rust&logoColor=d1a759" alt="Rust" /></a>
+        <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-181714?style=flat-square&logo=typescript&logoColor=d1a759" alt="TypeScript" /></a>
+        <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://img.shields.io/badge/Bash-181714?style=flat-square&logo=gnu-bash&logoColor=d1a759" alt="Bash" /></a>
+        <a href="https://www.tradingview.com/pine-script-docs/" target="_blank"><img src="https://img.shields.io/badge/Pine_Script-181714?style=flat-square&logo=tradingview&logoColor=d1a759" alt="Pine Script" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>⚡ Frameworks & Engines</h4>
       <p>
-        <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/FastAPI-0b0f19?style=flat-square&logo=fastapi&logoColor=8B5CF6" alt="FastAPI" /></a>
-        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-0b0f19?style=flat-square&logo=vue.js&logoColor=09F1B8" alt="Vue.js" /></a>
-        <a href="https://vite.dev/" target="_blank"><img src="https://img.shields.io/badge/Vite-0b0f19?style=flat-square&logo=vite&logoColor=8B5CF6" alt="Vite" /></a>
+        <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/FastAPI-181714?style=flat-square&logo=fastapi&logoColor=69a7ad" alt="FastAPI" /></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-181714?style=flat-square&logo=vue.js&logoColor=69a7ad" alt="Vue.js" /></a>
+        <a href="https://vite.dev/" target="_blank"><img src="https://img.shields.io/badge/Vite-181714?style=flat-square&logo=vite&logoColor=69a7ad" alt="Vite" /></a>
       </p>
     </td>
   </tr>
@@ -119,20 +119,20 @@ Here is a structured look at the technologies, engines, and utilities I leverage
     <td width="50%" valign="top">
       <h4>🗄️ Databases & Vector Storage</h4>
       <p>
-        <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-0b0f19?style=flat-square&logo=postgresql&logoColor=8B5CF6" alt="PostgreSQL" /></a>
-        <a href="https://www.sqlite.org/" target="_blank"><img src="https://img.shields.io/badge/SQLite-0b0f19?style=flat-square&logo=sqlite&logoColor=09F1B8" alt="SQLite" /></a>
-        <a href="https://github.com/pgvector/pgvector" target="_blank"><img src="https://img.shields.io/badge/pgvector-0b0f19?style=flat-square&logo=postgresql&logoColor=09F1B8" alt="pgvector" /></a>
-        <a href="https://redis.io/" target="_blank"><img src="https://img.shields.io/badge/Redis-0b0f19?style=flat-square&logo=redis&logoColor=8B5CF6" alt="Redis" /></a>
+        <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-181714?style=flat-square&logo=postgresql&logoColor=d1a759" alt="PostgreSQL" /></a>
+        <a href="https://www.sqlite.org/" target="_blank"><img src="https://img.shields.io/badge/SQLite-181714?style=flat-square&logo=sqlite&logoColor=d1a759" alt="SQLite" /></a>
+        <a href="https://github.com/pgvector/pgvector" target="_blank"><img src="https://img.shields.io/badge/pgvector-181714?style=flat-square&logo=postgresql&logoColor=d1a759" alt="pgvector" /></a>
+        <a href="https://redis.io/" target="_blank"><img src="https://img.shields.io/badge/Redis-181714?style=flat-square&logo=redis&logoColor=d1a759" alt="Redis" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>🐳 Infrastructure & DevOps</h4>
       <p>
-        <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-0b0f19?style=flat-square&logo=docker&logoColor=09F1B8" alt="Docker" /></a>
-        <a href="https://docs.docker.com/compose/" target="_blank"><img src="https://img.shields.io/badge/Docker_Compose-0b0f19?style=flat-square&logo=docker&logoColor=8B5CF6" alt="Docker Compose" /></a>
-        <a href="https://www.linux.org/" target="_blank"><img src="https://img.shields.io/badge/Linux-0b0f19?style=flat-square&logo=linux&logoColor=09F1B8" alt="Linux" /></a>
-        <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank"><img src="https://img.shields.io/badge/WSL-0b0f19?style=flat-square&logo=windows&logoColor=8B5CF6" alt="WSL" /></a>
-        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-0b0f19?style=flat-square&logo=git&logoColor=09F1B8" alt="Git" /></a>
+        <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-181714?style=flat-square&logo=docker&logoColor=69a7ad" alt="Docker" /></a>
+        <a href="https://docs.docker.com/compose/" target="_blank"><img src="https://img.shields.io/badge/Docker_Compose-181714?style=flat-square&logo=docker&logoColor=69a7ad" alt="Docker Compose" /></a>
+        <a href="https://www.linux.org/" target="_blank"><img src="https://img.shields.io/badge/Linux-181714?style=flat-square&logo=linux&logoColor=69a7ad" alt="Linux" /></a>
+        <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank"><img src="https://img.shields.io/badge/WSL-181714?style=flat-square&logo=windows&logoColor=69a7ad" alt="WSL" /></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-181714?style=flat-square&logo=git&logoColor=69a7ad" alt="Git" /></a>
       </p>
     </td>
   </tr>
@@ -142,10 +142,10 @@ Here is a structured look at the technologies, engines, and utilities I leverage
   <summary>🛠️ <strong>Click to Expand: Favorite Workspace Tools</strong></summary>
   <br>
   <p>
-    <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS_Code-0b0f19?style=flat-square&logo=visual-studio-code&logoColor=8B5CF6" alt="VS Code" /></a>
-    <a href="https://www.tradingview.com/" target="_blank"><img src="https://img.shields.io/badge/TradingView-0b0f19?style=flat-square&logo=tradingview&logoColor=09F1B8" alt="TradingView" /></a>
-    <a href="https://alpinelinux.org/" target="_blank"><img src="https://img.shields.io/badge/Alpine_Linux-0b0f19?style=flat-square&logo=alpine-linux&logoColor=8B5CF6" alt="Alpine Linux" /></a>
-    <a href="https://www.anthropic.com/claude" target="_blank"><img src="https://img.shields.io/badge/Claude_AI-0b0f19?style=flat-square&logo=anthropic&logoColor=09F1B8" alt="Claude AI" /></a>
+    <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS_Code-181714?style=flat-square&logo=visual-studio-code&logoColor=69a7ad" alt="VS Code" /></a>
+    <a href="https://www.tradingview.com/" target="_blank"><img src="https://img.shields.io/badge/TradingView-181714?style=flat-square&logo=tradingview&logoColor=d1a759" alt="TradingView" /></a>
+    <a href="https://alpinelinux.org/" target="_blank"><img src="https://img.shields.io/badge/Alpine_Linux-181714?style=flat-square&logo=alpine-linux&logoColor=69a7ad" alt="Alpine Linux" /></a>
+    <a href="https://www.anthropic.com/claude" target="_blank"><img src="https://img.shields.io/badge/Claude_AI-181714?style=flat-square&logo=anthropic&logoColor=d1a759" alt="Claude AI" /></a>
   </p>
 </details>
 

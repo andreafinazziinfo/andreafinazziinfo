@@ -1,196 +1,193 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Background Gradient (Warm Charcoal Theme) -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070a13" />
-      <stop offset="50%" stop-color="#0c1020" />
-      <stop offset="100%" stop-color="#070a13" />
+      <stop offset="0%" stop-color="#12110f" />
+      <stop offset="50%" stop-color="#181714" />
+      <stop offset="100%" stop-color="#12110f" />
     </linearGradient>
 
-    <!-- Glowing Accent Gradients -->
-    <linearGradient id="teal-glow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#09F1B8" />
-      <stop offset="100%" stop-color="#00B4D8" />
-    </linearGradient>
-    
-    <linearGradient id="purple-glow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B5CF6" />
-      <stop offset="100%" stop-color="#EC4899" />
+    <!-- Glowing Accents (Gold and Muted Slate Teal) -->
+    <linearGradient id="gold-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d1a759" />
+      <stop offset="100%" stop-color="#b98b38" />
     </linearGradient>
 
-    <!-- Wave/Cycle Gradient -->
-    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.2" />
-      <stop offset="50%" stop-color="#09F1B8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#09F1B8" stop-opacity="0.1" />
+    <linearGradient id="teal-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#69a7ad" />
+      <stop offset="100%" stop-color="#0f666b" />
     </linearGradient>
 
-    <!-- Glowing Effect Filter -->
-    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <linearGradient id="core-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d1a759" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#69a7ad" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#12110f" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glowing Effects Filters -->
+    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <filter id="glow-soft" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <filter id="glow-teal" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <!-- Cyber Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6" />
+    <!-- Premium Grid Pattern (Satoshi style layout grid) -->
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#2c2822" stroke-width="0.6" stroke-opacity="0.75" />
     </pattern>
   </defs>
 
   <style>
     <![CDATA[
-    /* CSS Styles and Animations */
-    .title {
-      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-      font-weight: 800;
-      fill: #ffffff;
-      letter-spacing: 5px;
+    /* Satoshi & Bespoke Serif Typography Replication */
+    .title-name {
+      font-family: 'Bespoke Serif', 'Georgia', serif;
+      font-weight: 700;
+      fill: #ece3d8;
+      letter-spacing: -1px;
     }
-    .subtitle {
-      font-family: 'Fira Code', 'Courier New', monospace;
-      font-weight: 600;
-      fill: #09F1B8;
+    .subtitle-spec {
+      font-family: 'Satoshi', 'Inter', sans-serif;
+      font-weight: 900;
+      fill: #d1a759;
       letter-spacing: 2px;
-      font-size: 13px;
+      font-size: 11px;
+      text-transform: uppercase;
     }
     .terminal-text {
       font-family: 'Fira Code', 'Courier New', monospace;
-      font-size: 11px;
-      fill: #94a3b8;
+      font-size: 10.5px;
+      fill: #b5ab9f;
     }
     .terminal-header {
-      font-family: 'Fira Code', 'Courier New', monospace;
-      font-size: 10px;
-      font-weight: bold;
-      fill: #475569;
+      font-family: 'Satoshi', sans-serif;
+      font-size: 9.5px;
+      font-weight: 700;
+      fill: #837a6f;
+      letter-spacing: 1px;
     }
-    .cyan-text { fill: #09F1B8; }
-    .purple-text { fill: #8B5CF6; }
-    .white-text { fill: #e2e8f0; }
-    .amber-text { fill: #f59e0b; }
-    .green-text { fill: #10b981; }
+    
+    .gold-txt { fill: #d1a759; }
+    .teal-txt { fill: #69a7ad; }
+    .muted-txt { fill: #837a6f; }
+    .bright-txt { fill: #ece3d8; }
 
-    /* Wave animation */
-    @keyframes draw-wave {
-      0% { stroke-dashoffset: 2000; }
-      100% { stroke-dashoffset: 0; }
+    /* Animated status dot */
+    @keyframes pulse-gold {
+      0%, 100% { fill: #d1a759; filter: drop-shadow(0 0 2px #d1a759); }
+      50% { fill: #b98b38; filter: drop-shadow(0 0 0px #d1a759); }
     }
-    .animated-wave {
-      stroke-dasharray: 2000;
-      stroke-dashoffset: 2000;
-      animation: draw-wave 6s linear infinite;
+    .status-dot-gold {
+      animation: pulse-gold 2.5s infinite;
     }
 
-    /* Terminal blinking cursor */
-    @keyframes blink {
+    /* Blinking terminal cursor */
+    @keyframes cursor-blink {
       0%, 100% { opacity: 0; }
       50% { opacity: 1; }
     }
-    .cursor {
-      animation: blink 1s step-end infinite;
-      fill: #09F1B8;
+    .term-cursor {
+      animation: cursor-blink 1.2s step-end infinite;
+      fill: #69a7ad;
     }
 
-    /* Status dot pulsing */
-    @keyframes pulse {
-      0% { fill: #09F1B8; filter: drop-shadow(0 0 2px #09F1B8); }
-      50% { fill: #059669; filter: drop-shadow(0 0 0px #09F1B8); }
-      100% { fill: #09F1B8; filter: drop-shadow(0 0 2px #09F1B8); }
+    /* Core Flow Line animation */
+    @keyframes flow-line {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
     }
-    .status-dot {
-      animation: pulse 2s infinite;
-    }
-
-    /* Subtle grid animation */
-    @keyframes grid-drift {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(40px); }
-    }
-    .drifting-grid {
-      /* Keep standard static grid to avoid high CPU usage but look premium */
+    .dynamic-line {
+      stroke-dasharray: 8 12;
+      animation: flow-line 25s linear infinite;
     }
     ]]>
   </style>
 
-  <!-- Container Base -->
-  <rect width="848" height="278" x="1" y="1" rx="12" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
+  <!-- Container Base (Warm Editorial Border) -->
+  <rect width="848" height="278" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#39352f" stroke-width="1.5" />
 
-  <!-- Cyber Grid Overlay -->
-  <rect width="848" height="278" x="1" y="1" rx="12" fill="url(#grid)" />
+  <!-- Grid Overlay -->
+  <rect width="848" height="278" x="1" y="1" rx="10" fill="url(#grid)" />
 
-  <!-- Decorative Mathematical Waves (Quantitative aesthetics) -->
-  <path d="M -50 180 C 100 120, 200 240, 350 170 C 500 100, 600 220, 750 160 C 850 120, 900 180, 950 180" 
-        fill="none" stroke="url(#wave-grad)" stroke-width="3" filter="url(#glow-soft)" />
+  <!-- Decorative Quant Wave (Core loop pathway) -->
+  <path d="M -50 170 Q 150 110, 320 180 T 680 160 T 950 180" 
+        fill="none" stroke="url(#core-glow)" stroke-width="38" opacity="0.35" />
+  
+  <path d="M -50 170 Q 150 110, 320 180 T 680 160 T 950 180" 
+        fill="none" stroke="#d1a759" stroke-width="1.5" opacity="0.25" stroke-dasharray="5 5" />
         
-  <path class="animated-wave" d="M -50 180 C 100 120, 200 240, 350 170 C 500 100, 600 220, 750 160 C 850 120, 900 180, 950 180" 
-        fill="none" stroke="#09F1B8" stroke-width="1.5" opacity="0.8" />
+  <path class="dynamic-line" d="M -50 170 Q 150 110, 320 180 T 680 160 T 950 180" 
+        fill="none" stroke="url(#teal-neon)" stroke-width="1.5" opacity="0.8" />
 
-  <path d="M -50 195 C 90 145, 180 250, 330 190 C 480 130, 580 230, 720 180 C 820 145, 880 195, 950 195" 
-        fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.3" stroke-dasharray="4 4" />
-
-  <!-- Live Terminal Mockup (Left Side) -->
+  <!-- LEFT SIDE: Glassmorphic Ecosytem Terminal (Flywheel Visualizer) -->
   <g transform="translate(35, 45)">
-    <!-- Terminal Box -->
-    <rect width="360" height="190" rx="8" fill="#04060d" fill-opacity="0.85" stroke="#1e293b" stroke-width="1" />
+    <!-- Main Window Frame -->
+    <rect width="370" height="190" rx="8" fill="#181714" fill-opacity="0.9" stroke="#39352f" stroke-width="1.2" />
     
-    <!-- Title bar dots -->
-    <circle cx="20" cy="18" r="5" fill="#ef4444" />
-    <circle cx="36" cy="18" r="5" fill="#eab308" />
-    <circle cx="52" cy="18" r="5" fill="#22c55e" />
-    <text x="80" y="21" class="terminal-header">CORE_INTERFACE://LOC_WORKSPACE</text>
+    <!-- Title Bar -->
+    <circle cx="20" cy="18" r="4.5" fill="#ef4444" opacity="0.75" />
+    <circle cx="34" cy="18" r="4.5" fill="#eab308" opacity="0.75" />
+    <circle cx="48" cy="18" r="4.5" fill="#22c55e" opacity="0.75" />
+    <text x="75" y="21" class="terminal-header">CORE_ENGINE://FLYWHEEL_CONTROL</text>
+    <path d="M 0 32 L 370 32" stroke="#39352f" stroke-width="1" />
 
-    <!-- Terminal Lines -->
-    <g transform="translate(15, 35)">
-      <text x="0" y="20" class="terminal-text"><tspan class="purple-text">info@finazzi</tspan>:<tspan class="cyan-text">~/platform</tspan>$ ./matassa --detect-cycles</text>
-      <text x="0" y="40" class="terminal-text">[<tspan class="green-text">OK</tspan>] Core cyclical engine: <tspan class="white-text">Matassa v3.4</tspan></text>
-      <text x="0" y="60" class="terminal-text">[<tspan class="green-text">OK</tspan>] HMM State Regime: <tspan class="amber-text">Harmonic Cycle Extension</tspan></text>
-      <text x="0" y="80" class="terminal-text">[<tspan class="cyan-text">INF</tspan>] Docker container status: <tspan class="green-text">5 running</tspan></text>
-      <text x="0" y="100" class="terminal-text">[<tspan class="purple-text">SYS</tspan>] Local vector db: <tspan class="white-text">pgvector isolated (127.0.0.1)</tspan></text>
-      <text x="0" y="120" class="terminal-text">[<tspan class="green-text">OK</tspan>] DX HUD statusline loaded successfully.</text>
+    <!-- Terminal Output -->
+    <g transform="translate(18, 38)">
+      <text x="0" y="20" class="terminal-text"><tspan class="gold-txt">andrea@engine</tspan>:<tspan class="teal-txt">~/flywheel</tspan>$ ./init_core.sh</text>
       
-      <!-- Blinking Shell Line -->
-      <text x="0" y="140" class="terminal-text"><tspan class="purple-text">info@finazzi</tspan>:<tspan class="cyan-text">~/platform</tspan>$ <tspan class="white-text">sys_state --check</tspan><tspan class="cursor">█</tspan></text>
+      <text x="0" y="42" class="terminal-text">[<tspan class="teal-txt">INIT</tspan>] Bootstrapping three-engine pipeline...</text>
+      <text x="0" y="62" class="terminal-text">  -> <tspan class="bright-txt">TITAN</tspan>: Research Ingestion [Active Regime]</text>
+      <text x="0" y="82" class="terminal-text">  -> <tspan class="bright-txt">CONTROL PLANE</tspan>: AI Orchestration [Connected]</text>
+      <text x="0" y="102" class="terminal-text">  -> <tspan class="bright-txt">CYCLE LAB</tspan>: Quant Platform [Monetization Ready]</text>
+      
+      <text x="0" y="122" class="terminal-text">[<tspan class="gold-txt">SYS</tspan>] Operational status: <tspan class="teal-txt">Optimal Loop</tspan> (Leva 95% Private)</text>
+      
+      <!-- Prompt Line -->
+      <text x="0" y="142" class="terminal-text"><tspan class="gold-txt">andrea@engine</tspan>:<tspan class="teal-txt">~/flywheel</tspan>$ <tspan class="bright-txt">sys_status --active</tspan><tspan class="term-cursor">█</tspan></text>
     </g>
   </g>
 
-  <!-- Profile Identity & Details (Right Side) -->
-  <g transform="translate(435, 45)">
-    <!-- Status Indicator Badge -->
+  <!-- RIGHT SIDE: Editorial Presentation -->
+  <g transform="translate(445, 52)">
+    <!-- Active Status HUD Badge -->
     <g transform="translate(230, 0)">
-      <rect width="130" height="24" rx="12" fill="#0c1622" stroke="#1e293b" stroke-width="1" />
-      <circle cx="16" cy="12" r="4.5" class="status-dot" />
-      <text x="28" y="16" font-family="'Fira Code', 'Courier New', monospace" font-size="9" fill="#94a3b8" font-weight="bold">SYSTEMS ACTIVE</text>
+      <rect width="135" height="24" rx="12" fill="#1e1c19" stroke="#39352f" stroke-width="1" />
+      <circle cx="16" cy="12" r="4.5" class="status-dot-gold" />
+      <text x="28" y="16" font-family="'Satoshi', sans-serif" font-size="9.5" fill="#ece3d8" font-weight="900" letter-spacing="1">SYSTEM ACTIVE</text>
     </g>
 
-    <!-- Main Title -->
-    <text x="0" y="55" class="title" font-size="32" filter="url(#glow)">ANDREA FINAZZI</text>
-    <text x="0" y="85" class="subtitle">QUANTITATIVE ARCHITECT &amp; SYSTEMS BUILDER</text>
+    <!-- Main Editorial Headline -->
+    <text x="0" y="52" class="title-name" font-size="34" filter="url(#glow-teal)">Andrea Finazzi</text>
+    <text x="0" y="80" class="subtitle-spec">QUANTITATIVE SYSTEMS &amp; EXECUTION ARCHITECT</text>
     
-    <!-- Bullet Points of Core Capabilities (Styled and Aligned) -->
-    <g transform="translate(0, 115)" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94a3b8">
-      <!-- Bullet 1 -->
-      <text x="0" y="15" font-weight="bold" fill="#e2e8f0">📈 Quantitative Systems</text>
-      <text x="20" y="32">Proprietary cyclical market regime tools (TradingView/Pine)</text>
+    <!-- Flywheel Motifs Description -->
+    <g transform="translate(0, 112)" font-family="'Satoshi', sans-serif" font-size="12" fill="#b5ab9f">
+      <!-- Motor 1 -->
+      <text x="0" y="15" font-weight="700" fill="#ece3d8">01 / TITAN</text>
+      <text x="90" y="15">Knowledge Engine &amp; Quantitative Research</text>
       
-      <!-- Bullet 2 -->
-      <text x="0" y="55" font-weight="bold" fill="#e2e8f0">🐳 Local-First Architecture</text>
-      <text x="20" y="72">Docker containerization, SQLite vectors, private-first focus</text>
-    </g>
+      <!-- Motor 2 -->
+      <text x="0" y="40" font-weight="700" fill="#ece3d8">02 / CONTROL PLANE</text>
+      <text x="90" y="40">Autonomous AI Orchestration &amp; Memory Layer</text>
 
-    <!-- Design Motto -->
-    <text x="0" y="212" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#475569" font-style="italic">
-      // Functional engineering, exceptional presentations.
+      <!-- Motor 3 -->
+      <text x="0" y="65" font-weight="700" fill="#ece3d8">03 / CYCLE LAB</text>
+      <text x="90" y="65">SaaS Product, Trading Systems &amp; Monetization</text>
+    </g>
+    
+    <!-- Editorial Motto -->
+    <text x="0" y="202" font-family="'Bespoke Serif', serif" font-size="11.5" fill="#837a6f" font-style="italic">
+      Research &amp; Knowledge Ingestion → Automated AI Execution → Product Monetization
     </text>
   </g>
 
