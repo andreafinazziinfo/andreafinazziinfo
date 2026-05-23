@@ -48,34 +48,7 @@ I engineer robust software environments at the convergence of **quantitative sys
 <!-- CORE CAPABILITIES GRID -->
 ### 🛠️ Core Capabilities & Systems
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h4>📈 Quantitative Systems</h4>
-      <ul>
-        <li>Proprietary time-series cycle analysis indicators (Pine Script / TradingView)</li>
-        <li>Custom market cycle swing detectors and structural regime backtesters</li>
-        <li>Focus on low-latency market analysis and data-driven risk management</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🧠 Knowledge Engineering</h4>
-      <ul>
-        <li>Local vector search pipelines (SQLite, pgvector) for private research indexing</li>
-        <li>Token-efficient context routing frameworks for local LLM orchestration</li>
-        <li>Secure-by-default, isolated local knowledge mining infrastructures</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🐳 Infrastructure & DX</h4>
-      <ul>
-        <li>Docker-first developer environments for absolute workspace isolation</li>
-        <li>Low-overhead terminal HUD status bars and automation shell wrappers</li>
-        <li>Performance-focused CLI utility engineering to accelerate operations</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/capabilities-grid.svg" width="100%" alt="Core Capabilities &amp; Systems Dashboard" />
 
 <br>
 
@@ -88,21 +61,9 @@ I engineer robust software environments at the convergence of **quantitative sys
 ### 🔌 Featured Public Project
 
 <div align="center">
-
-```
-╭──────────────────────────────────────────────────────────────────────────╮
-│  ⚡ claude-statusline-pro                                                │
-├──────────────────────────────────────────────────────────────────────────┤
-│  A terminal HUD status bar for Claude Code that displays real-time       │
-│  token usage, session costs, Git branch status, and tool freshness      │
-│  directly inside your shell environment.                                 │
-├──────────────────────────────────────────────────────────────────────────┤
-│  🟢 Status: Active   |   ⚖️ License: MIT   |   📁 Language: Bash 4+       │
-╰──────────────────────────────────────────────────────────────────────────╯
-```
-
-👉 **[Explore claude-statusline-pro on GitHub](https://github.com/andreafinazziinfo/claude-statusline-pro)**
-
+  <a href="https://github.com/andreafinazziinfo/claude-statusline-pro">
+    <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project.svg" width="100%" alt="Featured Public Project: claude-statusline-pro" />
+  </a>
 </div>
 
 <br>
@@ -117,15 +78,9 @@ I engineer robust software environments at the convergence of **quantitative sys
 
 I structure my systems around an absolute segregation between trading execution and open-source infrastructure. My workflows are local-first and private-by-default, keeping intellectual property highly protected while sharing developer experience (DX) tooling:
 
-```
-┌─────────────────────────────────┐       ┌─────────────────────────────────┐
-│     PROPRIETARY SYSTEMS (🔒)     │       │     PUBLIC UTILITIES (🔌)       │
-├─────────────────────────────────┤       ├─────────────────────────────────┤
-│ · Cycle Analysis Indicators     │       │ · Dev-Tools (Claude Statusline) │
-│ · Backtesting Engines & Regimes │ ───>  │ · CLI Wrapper Filters           │
-│ · Local Vector Knowledge Bases  │       │ · Shell Automation Scripts      │
-└─────────────────────────────────┘       └─────────────────────────────────┘
-```
+<br>
+
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/operating-model.svg" width="100%" alt="Operational Segregation Flowchart" />
 
 <br>
 
@@ -206,21 +161,15 @@ Here is a structured look at the technologies, engines, and utilities I leverage
 
 I operate a local-first, high-security workflow. My public GitHub profile reflects only my open-source infrastructure tools, while most of my quantitative analysis and proprietary trading code stays private.
 
-```text
-Operational Cadence (Local vs. Public Distribution)
+<br>
 
-Local Workspace  [████████████████████████████████████████████] 95% (Private Research & Core Engines)
-Public Gateways   [██] 5% (Developer Experience Tooling & HUDs)
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/telemetry-dashboard.svg" width="100%" alt="Operational Telemetry &amp; Activity Dashboard" />
 
-System Activity Flow (Conceptual Mapping)
-Mon  [░][░][▓][█][▓][░][░]   Base Operations & Monitoring
-Wed  [░][░][▓][█][█][▓][░]   Core Engineering & Backtesting
-Fri  [░][░][░][▓][█][░][░]   Quantitative Deployment Runs
-```
+<br>
 
-- Primary Workspace: Isolated local Docker-first environments.
-- Open-Source Access: Selective utilities and workflow enhancers.
-- Operational Cadence: Continuous local integration and automated validation.
+- **Primary Workspace:** Isolated local Docker-first environments.
+- **Open-Source Access:** Selective utilities and workflow enhancers.
+- **Operational Cadence:** Continuous local integration and automated validation.
 
 <br>
 
