@@ -2,43 +2,35 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#12110f" />
-      <stop offset="50%" stop-color="#181714" />
-      <stop offset="100%" stop-color="#12110f" />
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0b1122" />
+      <stop offset="100%" stop-color="#070a13" />
     </linearGradient>
 
     <!-- Node Card Gradients -->
     <linearGradient id="node-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1c1a17" />
-      <stop offset="100%" stop-color="#141310" />
+      <stop offset="0%" stop-color="#0e1428" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#050812" stop-opacity="0.85" />
     </linearGradient>
 
     <!-- Glowing Accents -->
-    <linearGradient id="gold-neon" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d1a759" />
-      <stop offset="100%" stop-color="#b98b38" />
+    <linearGradient id="cyan-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#09F1B8" />
+      <stop offset="100%" stop-color="#0EA5E9" />
     </linearGradient>
     
-    <linearGradient id="teal-neon" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#69a7ad" />
-      <stop offset="100%" stop-color="#0f666b" />
+    <linearGradient id="purple-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#d946ef" />
     </linearGradient>
 
     <linearGradient id="flow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d1a759" />
-      <stop offset="50%" stop-color="#69a7ad" />
-      <stop offset="100%" stop-color="#d1a759" />
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#09F1B8" />
     </linearGradient>
 
     <!-- Glow filters -->
-    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
     <filter id="glow-teal" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
@@ -47,39 +39,48 @@
       </feMerge>
     </filter>
 
-    <!-- Satoshi Layout Grid -->
-    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
-      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#2c2822" stroke-width="0.6" stroke-opacity="0.75" />
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6" />
     </pattern>
   </defs>
 
   <style>
     <![CDATA[
     .text-title {
-      font-family: 'Satoshi', sans-serif;
+      font-family: system-ui, -apple-system, sans-serif;
       font-weight: 900;
       font-size: 13.5px;
       letter-spacing: 1.5px;
       text-transform: uppercase;
     }
     .text-body {
-      font-family: 'Satoshi', sans-serif;
+      font-family: system-ui, -apple-system, sans-serif;
       font-size: 11px;
-      fill: #b5ab9f;
+      fill: #94a3b8;
     }
     .text-num {
-      font-family: 'Bespoke Serif', serif;
-      font-weight: 700;
+      font-family: 'Fira Code', monospace;
+      font-weight: 800;
       font-size: 20px;
-      fill: #d1a759;
+      fill: #09F1B8;
+      opacity: 0.75;
     }
     .text-label {
-      font-family: 'Satoshi', sans-serif;
-      font-weight: 700;
-      font-size: 9.5px;
+      font-family: 'Fira Code', monospace;
+      font-size: 8.5px;
+      font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
-      fill: #837a6f;
+      fill: #475569;
     }
 
     /* Laser stream animations along pathways */
@@ -90,30 +91,22 @@
       stroke-dasharray: 8 12;
       animation: flow-stream 1.5s linear infinite;
     }
-    
-    @keyframes pulse-card {
-      0%, 100% { border-color: #39352f; box-shadow: none; }
-      50% { border-color: #d1a759; }
-    }
-    .pulsing-card {
-      /* Subtle border highlights */
-    }
     ]]>
   </style>
 
   <!-- Background Base -->
-  <rect width="848" height="238" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#39352f" stroke-width="1.5" />
+  <rect width="848" height="238" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
   <rect width="848" height="238" x="1" y="1" rx="10" fill="url(#grid)" />
 
   <!-- ENGINE 1: TITAN -->
   <g transform="translate(30, 45)">
     <!-- Frame -->
-    <rect width="210" height="120" rx="6" fill="url(#node-grad)" stroke="#39352f" stroke-width="1.2" />
-    <path d="M 6 0 L 204 0" stroke="url(#gold-neon)" stroke-width="1.5" stroke-linecap="round" />
+    <rect width="210" height="120" rx="6" fill="url(#node-grad)" stroke="#1e293b" stroke-width="1.2" />
+    <path d="M 6 0 L 204 0" stroke="url(#cyan-neon)" stroke-width="1.5" stroke-linecap="round" filter="url(#glow-teal)" />
     
-    <text x="180" y="26" class="text-num">01</text>
-    <text x="18" y="30" class="text-title" fill="#d1a759">TITAN</text>
-    <text x="18" y="55" class="text-body" fill="#ece3d8" font-weight="700">Knowledge Engine</text>
+    <text x="180" y="26" class="text-num" filter="url(#glow-teal)">01</text>
+    <text x="18" y="30" class="text-title" fill="#09F1B8">TITAN</text>
+    <text x="18" y="55" class="text-body" fill="#e2e8f0" font-weight="700">Knowledge Engine</text>
     
     <text x="18" y="78" class="text-body">• Ingests papers &amp; research</text>
     <text x="18" y="93" class="text-body">• Signals &amp; pattern analysis</text>
@@ -122,12 +115,12 @@
   <!-- ENGINE 2: CONTROL PLANE -->
   <g transform="translate(320, 45)">
     <!-- Frame -->
-    <rect width="210" height="120" rx="6" fill="url(#node-grad)" stroke="#39352f" stroke-width="1.2" />
-    <path d="M 6 0 L 204 0" stroke="url(#teal-neon)" stroke-width="1.5" stroke-linecap="round" />
+    <rect width="210" height="120" rx="6" fill="url(#node-grad)" stroke="#1e293b" stroke-width="1.2" />
+    <path d="M 6 0 L 204 0" stroke="url(#purple-neon)" stroke-width="1.5" stroke-linecap="round" filter="url(#glow-purple)" />
     
-    <text x="180" y="26" class="text-num" fill="#69a7ad">02</text>
-    <text x="18" y="30" class="text-title" fill="#69a7ad">CONTROL PLANE</text>
-    <text x="18" y="55" class="text-body" fill="#ece3d8" font-weight="700">AI Operating System</text>
+    <text x="180" y="26" class="text-num" fill="#8B5CF6" filter="url(#glow-purple)">02</text>
+    <text x="18" y="30" class="text-title" fill="#8B5CF6">CONTROL PLANE</text>
+    <text x="18" y="55" class="text-body" fill="#e2e8f0" font-weight="700">AI Operating System</text>
     
     <text x="18" y="78" class="text-body">• Governs AI execution</text>
     <text x="18" y="93" class="text-body">• Context routing &amp; memory</text>
@@ -136,12 +129,12 @@
   <!-- ENGINE 3: CYCLE LAB -->
   <g transform="translate(610, 45)">
     <!-- Frame -->
-    <rect width="210" height="120" rx="6" fill="url(#node-grad)" stroke="#39352f" stroke-width="1.2" />
-    <path d="M 6 0 L 204 0" stroke="url(#gold-neon)" stroke-width="1.5" stroke-linecap="round" />
+    <rect width="210" height="120" rx="6" fill="url(#node-grad)" stroke="#1e293b" stroke-width="1.2" />
+    <path d="M 6 0 L 204 0" stroke="url(#cyan-neon)" stroke-width="1.5" stroke-linecap="round" filter="url(#glow-teal)" />
     
-    <text x="180" y="26" class="text-num">03</text>
-    <text x="18" y="30" class="text-title" fill="#d1a759">CYCLE LAB</text>
-    <text x="18" y="55" class="text-body" fill="#ece3d8" font-weight="700">Quant SaaS &amp; Bots</text>
+    <text x="180" y="26" class="text-num" filter="url(#glow-teal)">03</text>
+    <text x="18" y="30" class="text-title" fill="#09F1B8">CYCLE LAB</text>
+    <text x="18" y="55" class="text-body" fill="#e2e8f0" font-weight="700">Quant SaaS &amp; Bots</text>
     
     <text x="18" y="78" class="text-body">• Backtesting &amp; analytics</text>
     <text x="18" y="93" class="text-body">• Signal monetization</text>
@@ -150,28 +143,28 @@
   <!-- FORWARD FLOW LINES -->
   <!-- Stream 1: Titan -> Control Plane -->
   <g transform="translate(240, 105)">
-    <path d="M 0 0 L 80 0" stroke="#39352f" stroke-width="3" stroke-linecap="round" />
-    <path class="stream-line" d="M 0 0 L 80 0" stroke="url(#gold-neon)" stroke-width="1.5" stroke-linecap="round" />
-    <text x="40" y="-8" text-anchor="middle" class="text-label" font-size="8">RESEARCH</text>
+    <path d="M 0 0 L 80 0" stroke="#1e293b" stroke-width="3" stroke-linecap="round" />
+    <path class="stream-line" d="M 0 0 L 80 0" stroke="url(#cyan-neon)" stroke-width="1.5" stroke-linecap="round" />
+    <text x="40" y="-8" text-anchor="middle" class="text-label">RESEARCH</text>
   </g>
 
   <!-- Stream 2: Control Plane -> Cycle Lab -->
   <g transform="translate(530, 105)">
-    <path d="M 0 0 L 80 0" stroke="#39352f" stroke-width="3" stroke-linecap="round" />
-    <path class="stream-line" d="M 0 0 L 80 0" stroke="url(#teal-neon)" stroke-width="1.5" stroke-linecap="round" />
-    <text x="40" y="-8" text-anchor="middle" class="text-label" font-size="8">EXECUTION</text>
+    <path d="M 0 0 L 80 0" stroke="#1e293b" stroke-width="3" stroke-linecap="round" />
+    <path class="stream-line" d="M 0 0 L 80 0" stroke="url(#purple-neon)" stroke-width="1.5" stroke-linecap="round" />
+    <text x="40" y="-8" text-anchor="middle" class="text-label">EXECUTION</text>
   </g>
 
   <!-- FLYWHEEL FEEDBACK RETURN LOOP (UNDERNEATH) -->
   <g>
     <!-- Base Curved Line -->
-    <path d="M 715 165 C 715 220, 135 220, 135 165" fill="none" stroke="#39352f" stroke-width="3" />
+    <path d="M 715 165 C 715 220, 135 220, 135 165" fill="none" stroke="#1e293b" stroke-width="3" />
     
     <!-- Animated return line -->
     <path class="stream-line" d="M 715 165 C 715 220, 135 220, 135 165" fill="none" stroke="url(#flow-grad)" stroke-width="1.5" />
     
     <!-- Central Label Badge -->
-    <rect x="290" y="195" width="270" height="20" rx="10" fill="#181714" stroke="#39352f" stroke-width="1.2" />
-    <text x="425" y="209" text-anchor="middle" font-family="'Satoshi', sans-serif" font-size="9" font-weight="900" fill="#d1a759" letter-spacing="1.5">🔄 RE-INVESTS IN QUANTITATIVE RESEARCH</text>
+    <rect x="290" y="195" width="270" height="20" rx="10" fill="#04060c" stroke="#09F1B8" stroke-opacity="0.3" stroke-width="1.2" />
+    <text x="425" y="209" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="900" fill="#09F1B8" letter-spacing="1.5" filter="url(#glow-teal)">🔄 RE-INVESTS IN QUANTITATIVE RESEARCH</text>
   </g>
 </svg>

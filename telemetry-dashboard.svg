@@ -2,38 +2,38 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#12110f" />
-      <stop offset="50%" stop-color="#181714" />
-      <stop offset="100%" stop-color="#12110f" />
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0b1122" />
+      <stop offset="100%" stop-color="#070a13" />
     </linearGradient>
 
     <!-- Bar Gradients -->
     <linearGradient id="local-bar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b98b38" />
-      <stop offset="100%" stop-color="#d1a759" />
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#d946ef" />
     </linearGradient>
 
     <linearGradient id="public-bar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0f666b" />
-      <stop offset="100%" stop-color="#69a7ad" />
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#09F1B8" />
     </linearGradient>
 
     <!-- Node Hues -->
     <linearGradient id="node-peak" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#d1a759" />
-      <stop offset="100%" stop-color="#b98b38" />
+      <stop offset="0%" stop-color="#09F1B8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
     </linearGradient>
     <linearGradient id="node-high" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#69a7ad" />
-      <stop offset="100%" stop-color="#327c82" />
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#8b5cf6" />
     </linearGradient>
     <linearGradient id="node-mid" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2c2822" />
-      <stop offset="100%" stop-color="#211d18" />
+      <stop offset="0%" stop-color="#2c3e50" />
+      <stop offset="100%" stop-color="#1a252f" />
     </linearGradient>
 
     <!-- Glow filters -->
-    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="glow-teal" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -41,9 +41,9 @@
       </feMerge>
     </filter>
 
-    <!-- Satoshi Layout Grid -->
-    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
-      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#2c2822" stroke-width="0.6" stroke-opacity="0.75" />
+    <!-- Cyber Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6" />
     </pattern>
   </defs>
 
@@ -53,51 +53,51 @@
       font-family: 'Fira Code', 'Courier New', monospace;
       font-size: 10px;
       font-weight: bold;
-      fill: #837a6f;
+      fill: #475569;
     }
     .hud-title {
-      font-family: 'Satoshi', sans-serif;
+      font-family: system-ui, -apple-system, sans-serif;
       font-weight: 900;
       font-size: 13.5px;
       letter-spacing: 1px;
-      fill: #ece3d8;
+      fill: #ffffff;
     }
     .hud-text {
       font-family: 'Fira Code', 'Courier New', monospace;
       font-size: 11px;
-      fill: #b5ab9f;
+      fill: #cbd5e1;
     }
     .hud-subtext {
-      font-family: 'Satoshi', sans-serif;
+      font-family: system-ui, -apple-system, sans-serif;
       font-size: 11px;
-      fill: #837a6f;
+      fill: #64748b;
     }
 
-    @keyframes pulse-node-gold {
+    @keyframes pulse-node-cyan {
       0%, 100% { opacity: 0.85; }
-      50% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 2px #d1a759); }
+      50% { opacity: 1; filter: brightness(1.2) drop-shadow(0 0 3px #09F1B8); }
     }
     .pulsing-peak {
-      animation: pulse-node-gold 2.5s infinite ease-in-out;
+      animation: pulse-node-cyan 2.5s infinite ease-in-out;
     }
     ]]>
   </style>
 
   <!-- Background Base -->
-  <rect width="848" height="238" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#39352f" stroke-width="1.5" />
+  <rect width="848" height="238" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
   <rect width="848" height="238" x="1" y="1" rx="10" fill="url(#grid)" />
 
   <!-- Terminal Style Mockup Window -->
   <g transform="translate(25, 20)">
     <!-- Terminal Body -->
-    <rect width="798" height="198" rx="8" fill="#181714" fill-opacity="0.95" stroke="#39352f" stroke-width="1.2" />
+    <rect width="798" height="198" rx="8" fill="#04060c" fill-opacity="0.9" stroke="#1e293b" stroke-width="1.2" />
     
     <!-- Title bar dots -->
     <circle cx="18" cy="16" r="4.5" fill="#ef4444" opacity="0.75" />
     <circle cx="32" cy="16" r="4.5" fill="#eab308" opacity="0.75" />
     <circle cx="46" cy="16" r="4.5" fill="#22c55e" opacity="0.75" />
     <text x="68" y="19" class="hud-header">OPERATIONAL_TELEMETRY // REGIME_CADENCE</text>
-    <path d="M 0 30 L 798 30" stroke="#39352f" stroke-width="1" />
+    <path d="M 0 30 L 798 30" stroke="#1e293b" stroke-width="1" />
 
     <!-- LEFT PANEL: Cadence Spans -->
     <g transform="translate(25, 45)">
@@ -105,27 +105,27 @@
       
       <!-- Local Workspace Bar -->
       <g transform="translate(0, 32)">
-        <text x="0" y="10" class="hud-text" fill="#d1a759">Local Workspace</text>
+        <text x="0" y="10" class="hud-text" fill="#8B5CF6">Local Workspace</text>
         <text x="320" y="10" class="hud-text" fill="#ece3d8" font-weight="bold">95%</text>
         
-        <rect x="0" y="18" width="340" height="12" rx="6" fill="#2c2822" />
+        <rect x="0" y="18" width="340" height="12" rx="6" fill="#1e1b4b" />
         <rect x="0" y="18" width="323" height="12" rx="6" fill="url(#local-bar)" />
         <text x="0" y="42" class="hud-subtext">Private quant cycle core engines &amp; Titan research data.</text>
       </g>
 
       <!-- Public Gateways Bar -->
       <g transform="translate(0, 97)">
-        <text x="0" y="10" class="hud-text" fill="#69a7ad">Public Gateways</text>
+        <text x="0" y="10" class="hud-text" fill="#09F1B8">Public Gateways</text>
         <text x="320" y="10" class="hud-text" fill="#ece3d8" font-weight="bold">5%</text>
         
-        <rect x="0" y="18" width="340" height="12" rx="6" fill="#2c2822" />
+        <rect x="0" y="18" width="340" height="12" rx="6" fill="#0b1716" />
         <rect x="0" y="18" width="17" height="12" rx="6" fill="url(#public-bar)" />
         <text x="0" y="42" class="hud-subtext">Open-source command statuslines, wrappers &amp; HUD portals.</text>
       </g>
     </g>
 
     <!-- VERTICAL DIVIDER -->
-    <path d="M 425 40 L 425 180" stroke="#39352f" stroke-width="1" stroke-dasharray="3 3" />
+    <path d="M 425 40 L 425 180" stroke="#1e293b" stroke-width="1" stroke-dasharray="3 3" />
 
     <!-- RIGHT PANEL: Activity Conceptual Flow Grid -->
     <g transform="translate(455, 45)">
@@ -134,47 +134,47 @@
       <!-- Weekday Rows -->
       <!-- Mon Row -->
       <g transform="translate(0, 35)">
-        <text x="0" y="14" class="hud-text" fill="#837a6f">Mon</text>
+        <text x="0" y="14" class="hud-text" fill="#64748b">Mon</text>
         <!-- Nodes grid -->
-        <rect x="40" y="2" width="14" height="14" rx="3" fill="#2c2822" />
-        <rect x="60" y="2" width="14" height="14" rx="3" fill="#2c2822" />
+        <rect x="40" y="2" width="14" height="14" rx="3" fill="#1e293b" />
+        <rect x="60" y="2" width="14" height="14" rx="3" fill="#1e293b" />
         <rect x="80" y="2" width="14" height="14" rx="3" fill="url(#node-mid)" />
         <rect x="100" y="2" width="14" height="14" rx="3" fill="url(#node-high)" />
         <rect x="120" y="2" width="14" height="14" rx="3" fill="url(#node-mid)" />
-        <rect x="140" y="2" width="14" height="14" rx="3" fill="#2c2822" />
-        <rect x="160" y="2" width="14" height="14" rx="3" fill="#2c2822" />
+        <rect x="140" y="2" width="14" height="14" rx="3" fill="#1e293b" />
+        <rect x="160" y="2" width="14" height="14" rx="3" fill="#1e293b" />
         
-        <text x="195" y="13" class="hud-subtext" fill="#b5ab9f">Base Monitoring &amp; Ops</text>
+        <text x="195" y="13" class="hud-subtext" fill="#cbd5e1">Base Monitoring &amp; Ops</text>
       </g>
 
       <!-- Wed Row -->
       <g transform="translate(0, 68)">
-        <text x="0" y="14" class="hud-text" fill="#837a6f">Wed</text>
+        <text x="0" y="14" class="hud-text" fill="#64748b">Wed</text>
         <!-- Nodes grid -->
-        <rect x="40" y="2" width="14" height="14" rx="3" fill="#2c2822" />
-        <rect x="60" y="2" width="14" height="14" rx="3" fill="#2c2822" />
+        <rect x="40" y="2" width="14" height="14" rx="3" fill="#1e293b" />
+        <rect x="60" y="2" width="14" height="14" rx="3" fill="#1e293b" />
         <rect x="80" y="2" width="14" height="14" rx="3" fill="url(#node-mid)" />
         <rect x="100" y="2" width="14" height="14" rx="3" fill="url(#node-high)" />
-        <rect class="pulsing-peak" x="120" y="2" width="14" height="14" rx="3" fill="url(#node-peak)" filter="url(#glow-gold)" />
+        <rect class="pulsing-peak" x="120" y="2" width="14" height="14" rx="3" fill="url(#node-peak)" filter="url(#glow-teal)" />
         <rect x="140" y="2" width="14" height="14" rx="3" fill="url(#node-mid)" />
-        <rect x="160" y="2" width="14" height="14" rx="3" fill="#2c2822" />
+        <rect x="160" y="2" width="14" height="14" rx="3" fill="#1e293b" />
         
-        <text x="195" y="13" class="hud-subtext" fill="#b5ab9f">Core Engine &amp; Backtesting</text>
+        <text x="195" y="13" class="hud-subtext" fill="#cbd5e1">Core Engine &amp; Backtesting</text>
       </g>
 
       <!-- Fri Row -->
       <g transform="translate(0, 101)">
-        <text x="0" y="14" class="hud-text" fill="#837a6f">Fri</text>
+        <text x="0" y="14" class="hud-text" fill="#64748b">Fri</text>
         <!-- Nodes grid -->
-        <rect x="40" y="2" width="14" height="14" rx="3" fill="#2c2822" />
-        <rect x="60" y="2" width="14" height="14" rx="3" fill="#2c2822" />
-        <rect x="80" y="2" width="14" height="14" rx="3" fill="#2c2822" />
+        <rect x="40" y="2" width="14" height="14" rx="3" fill="#1e293b" />
+        <rect x="60" y="2" width="14" height="14" rx="3" fill="#1e293b" />
+        <rect x="80" y="2" width="14" height="14" rx="3" fill="#1e293b" />
         <rect x="100" y="2" width="14" height="14" rx="3" fill="url(#node-mid)" />
         <rect x="120" y="2" width="14" height="14" rx="3" fill="url(#node-high)" />
-        <rect x="140" y="2" width="14" height="14" rx="3" fill="#2c2822" />
-        <rect x="160" y="2" width="14" height="14" rx="3" fill="#2c2822" />
+        <rect x="140" y="2" width="14" height="14" rx="3" fill="#1e293b" />
+        <rect x="160" y="2" width="14" height="14" rx="3" fill="#1e293b" />
         
-        <text x="195" y="13" class="hud-subtext" fill="#b5ab9f">Quantitative Deployments</text>
+        <text x="195" y="13" class="hud-subtext" fill="#cbd5e1">Quantitative Deployments</text>
       </g>
     </g>
   </g>

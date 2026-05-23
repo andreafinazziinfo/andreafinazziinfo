@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0c1020" />
+      <stop offset="100%" stop-color="#070a13" />
+    </linearGradient>
+
+    <!-- Panel Gradient -->
+    <linearGradient id="panel-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e1428" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#050812" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glowing accents -->
+    <linearGradient id="cyan-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#09F1B8" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+
+    <linearGradient id="purple-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#d946ef" />
+    </linearGradient>
+
+    <!-- Wave gradients -->
+    <linearGradient id="chart-wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#09F1B8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow-teal" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-red" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <style>
+    <![CDATA[
+    .hud-title {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 900;
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      fill: #ffffff;
+    }
+    .hud-header {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 10px;
+      font-weight: bold;
+      fill: #475569;
+    }
+    .mono-log {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 10.5px;
+      fill: #94a3b8;
+    }
+    .chart-label {
+      font-family: 'Fira Code', monospace;
+      font-size: 8px;
+      font-weight: bold;
+      fill: #64748b;
+    }
+    
+    .cyan-txt { fill: #09F1B8; }
+    .purple-txt { fill: #8B5CF6; }
+    .red-txt { fill: #f87171; }
+    .bright-txt { fill: #e2e8f0; }
+
+    /* Animated Wave Path */
+    @keyframes wave-flow {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .anim-wave {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: wave-flow 10s linear infinite;
+    }
+
+    /* Pulsing alert indicators */
+    @keyframes pulse-teal {
+      0%, 100% { fill: #09F1B8; filter: drop-shadow(0 0 1px #09F1B8); }
+      50% { fill: #0d9488; filter: drop-shadow(0 0 6px #09F1B8); }
+    }
+    .pulsing-teal {
+      animation: pulse-teal 1.8s infinite;
+    }
+
+    @keyframes pulse-red {
+      0%, 100% { fill: #ef4444; filter: drop-shadow(0 0 1px #ef4444); }
+      50% { fill: #b91c1c; filter: drop-shadow(0 0 6px #ef4444); }
+    }
+    .pulsing-red {
+      animation: pulse-red 1.8s infinite;
+    }
+
+    /* Terminal shell prompt cursor */
+    @keyframes cursor-blink {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+    .hud-cursor {
+      animation: cursor-blink 1s step-end infinite;
+      fill: #09F1B8;
+    }
+    ]]>
+  </style>
+
+  <!-- Background Base -->
+  <rect width="848" height="298" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="848" height="298" x="1" y="1" rx="10" fill="url(#grid)" />
+
+  <!-- Terminal Style Mockup Window -->
+  <g transform="translate(20, 20)">
+    <!-- Main Box -->
+    <rect width="808" height="258" rx="8" fill="#04060c" fill-opacity="0.9" stroke="#1e293b" stroke-width="1.2" />
+    
+    <!-- Title bar dots -->
+    <circle cx="18" cy="16" r="4.5" fill="#ef4444" opacity="0.75" />
+    <circle cx="32" cy="16" r="4.5" fill="#eab308" opacity="0.75" />
+    <circle cx="46" cy="16" r="4.5" fill="#22c55e" opacity="0.75" />
+    <text x="68" y="19" class="hud-header">CYCLELAB_HUD // PLATFORM_ENGINE_STATUS</text>
+    <path d="M 0 30 L 808 30" stroke="#1e293b" stroke-width="1" />
+
+    <!-- LEFT PANEL: Cycle Analysis Waveform Chart -->
+    <g transform="translate(25, 45)">
+      <text x="0" y="15" class="hud-title">📈 Cycle Analysis Engine</text>
+      
+      <!-- Chart Coordinates plane -->
+      <g transform="translate(0, 30)">
+        <!-- Axes -->
+        <line x1="0" y1="80" x2="340" y2="80" stroke="#1e293b" stroke-width="1.5" />
+        <line x1="10" y1="5" x2="10" y2="155" stroke="#1e293b" stroke-width="1.5" />
+        
+        <!-- Y-Axis labels -->
+        <text x="18" y="15" class="chart-label">OVERBOUGHT [90]</text>
+        <line x1="5" y1="10" x2="15" y2="10" stroke="#1e293b" stroke-width="1" />
+        
+        <text x="18" y="145" class="chart-label">OVERSOLD [10]</text>
+        <line x1="5" y1="140" x2="15" y2="140" stroke="#1e293b" stroke-width="1" />
+        
+        <!-- Grid horizontal markers -->
+        <line x1="10" y1="40" x2="340" y2="40" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 4" />
+        <line x1="10" y1="110" x2="340" y2="110" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 4" />
+
+        <!-- Intersecting market cycle waves -->
+        <!-- Wave 1: Slow Cycle Regime (Purple) -->
+        <path d="M 10 80 Q 90 -20, 170 80 T 330 80" fill="none" stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6" />
+        
+        <!-- Wave 2: Animated Fast Harmonic Cycle (Teal) -->
+        <path d="M 10 80 C 60 5, 110 155, 170 80 C 230 5, 280 155, 330 80" fill="none" stroke="url(#chart-wave)" stroke-width="4" opacity="0.35" filter="url(#glow-teal)" />
+        <path class="anim-wave" d="M 10 80 C 60 5, 110 155, 170 80 C 230 5, 280 155, 330 80" fill="none" stroke="#09F1B8" stroke-width="2.2" stroke-linecap="round" />
+
+        <!-- Warning Peak point -->
+        <circle cx="65" cy="40" r="4.5" fill="#ef4444" class="pulsing-red" />
+        <text x="75" y="36" font-family="'Fira Code', monospace" font-size="8.5" fill="#ef4444" font-weight="bold" filter="url(#glow-red)">[CYCLE_PEAK RESIST]</text>
+
+        <!-- Buy Trough point -->
+        <circle cx="275" cy="120" r="4.5" fill="#09F1B8" class="pulsing-teal" />
+        <text x="145" y="132" font-family="'Fira Code', monospace" font-size="8.5" fill="#09F1B8" font-weight="bold" filter="url(#glow-teal)">[SUPPORT HARMONIC BUY TRIGGER]</text>
+      </g>
+    </g>
+
+    <!-- VERTICAL DIVIDER -->
+    <path d="M 410 40 L 410 240" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="3 3" />
+
+    <!-- RIGHT PANEL: Live Engine Log Output -->
+    <g transform="translate(435, 45)">
+      <text x="0" y="15" class="hud-title">⚡ Cycle Lab Execution Stream</text>
+      
+      <!-- Terminal Log Entries -->
+      <g transform="translate(0, 35)">
+        <!-- Entry 1 -->
+        <text x="0" y="12" class="mono-log"><tspan class="purple-txt">[SYS_ENG]</tspan> Matassa Engine v3.4 initialized successfully.</text>
+        
+        <!-- Entry 2 -->
+        <text x="0" y="32" class="mono-log"><tspan class="cyan-txt">[CYCLE_DET]</tspan> Detected 24-day cycle harmonic bottom.</text>
+        
+        <!-- Entry 3 -->
+        <text x="0" y="52" class="mono-log"><tspan class="cyan-txt">[SIGNAL]</tspan> Pine indicators compiled: <tspan class="cyan-txt">BUY_CONFIRMED</tspan></text>
+        
+        <!-- Entry 4 -->
+        <text x="0" y="72" class="mono-log"><tspan class="purple-txt">[C-PLANE]</tspan> AI Routed: context compiles from Titan base.</text>
+        
+        <!-- Entry 5 -->
+        <text x="0" y="92" class="mono-log"><tspan class="purple-txt">[AI_EXEC]</tspan> Executed buy order (confidence index <tspan class="cyan-txt">0.98</tspan>).</text>
+
+        <!-- Entry 6 -->
+        <text x="0" y="112" class="mono-log"><tspan class="red-txt">[RISK_MON]</tspan> Exposure threshold verified [SECURE].</text>
+
+        <!-- Entry 7 -->
+        <text x="0" y="132" class="mono-log"><tspan class="cyan-txt">[CYCLE_LAB]</tspan> Telemetry active: SaaS Signal gateway OK.</text>
+
+        <!-- Shell prompt -->
+        <text x="0" y="162" class="mono-log"><tspan class="purple-txt">info@cyclelab</tspan>:<tspan class="cyan-txt">~/platform</tspan>$ <tspan class="bright-txt">monitor_harmonics --active</tspan><tspan class="hud-cursor">█</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

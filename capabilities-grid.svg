@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient (Warm Charcoal Theme) -->
+    <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#12110f" />
-      <stop offset="50%" stop-color="#181714" />
-      <stop offset="100%" stop-color="#12110f" />
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0c1020" />
+      <stop offset="100%" stop-color="#070a13" />
     </linearGradient>
 
     <!-- Card Backgrounds -->
     <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#181714" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#1e1c19" stop-opacity="0.9" />
+      <stop offset="0%" stop-color="#0e1428" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#050812" stop-opacity="0.85" />
     </linearGradient>
 
     <!-- Glowing Accents -->
-    <linearGradient id="gold-neon" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d1a759" />
-      <stop offset="100%" stop-color="#b98b38" />
-    </linearGradient>
-    
-    <linearGradient id="teal-neon" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#69a7ad" />
-      <stop offset="100%" stop-color="#0f666b" />
+    <linearGradient id="cyan-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#09F1B8" />
+      <stop offset="100%" stop-color="#0EA5E9" />
     </linearGradient>
 
-    <!-- Glow filters -->
-    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+    <linearGradient id="purple-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#d946ef" />
+    </linearGradient>
+
+    <!-- Glowing filters -->
+    <filter id="glow-teal" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -33,154 +33,162 @@
       </feMerge>
     </filter>
 
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
-      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#2c2822" stroke-width="0.6" stroke-opacity="0.75" />
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6" />
     </pattern>
   </defs>
 
   <style>
     <![CDATA[
     .card-num {
-      font-family: 'Bespoke Serif', 'Georgia', serif;
-      font-weight: 700;
-      font-size: 26px;
-      fill: #d1a759;
-      opacity: 0.85;
+      font-family: 'Fira Code', monospace;
+      font-weight: 800;
+      font-size: 24px;
+      fill: #09F1B8;
+      opacity: 0.65;
     }
     .card-title {
-      font-family: 'Satoshi', 'Inter', sans-serif;
+      font-family: system-ui, -apple-system, sans-serif;
       font-weight: 900;
       font-size: 13.5px;
       letter-spacing: 1.5px;
       text-transform: uppercase;
     }
     .card-list {
-      font-family: 'Satoshi', 'Inter', sans-serif;
+      font-family: system-ui, -apple-system, sans-serif;
       font-size: 11.5px;
       fill: #cbd5e1;
     }
     .card-bullet {
-      fill: #837a6f;
+      fill: #475569;
     }
     ]]>
   </style>
 
   <!-- Background Base -->
-  <rect width="848" height="218" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#39352f" stroke-width="1.5" />
+  <rect width="848" height="218" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
   <rect width="848" height="218" x="1" y="1" rx="10" fill="url(#grid)" />
 
   <!-- CARD 1: TITAN -->
   <g transform="translate(25, 20)">
     <!-- Card Frame -->
-    <rect width="250" height="180" rx="8" fill="url(#card-grad)" stroke="#39352f" stroke-width="1.2" />
+    <rect width="250" height="180" rx="8" fill="url(#card-grad)" stroke="#1e293b" stroke-width="1.5" />
     
     <!-- Neon Top Border Accent -->
-    <path d="M 8 0 L 242 0" stroke="url(#gold-neon)" stroke-width="2" stroke-linecap="round" filter="url(#glow-gold)" />
+    <path d="M 8 0 L 242 0" stroke="url(#cyan-neon)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-teal)" />
     
     <!-- Number Indicator (Right side) -->
-    <text x="215" y="32" class="card-num">01</text>
+    <text x="205" y="32" class="card-num" filter="url(#glow-teal)">01</text>
 
     <!-- Card Icon & Header -->
     <g transform="translate(15, 25)">
       <!-- Ingest Book/Source Icon -->
-      <path d="M 4 2 L 18 2 C 20 2, 21 3, 21 5 L 21 17 C 21 19, 20 20, 18 20 L 4 20 L 4 2 Z" stroke="#d1a759" stroke-width="2" fill="none" stroke-linecap="round" />
-      <path d="M 4 16 L 18 16" stroke="#d1a759" stroke-width="1.5" />
-      <text x="28" y="13" class="card-title" fill="#d1a759">TITAN</text>
+      <path d="M 4 2 L 18 2 C 20 2, 21 3, 21 5 L 21 17 C 21 19, 20 20, 18 20 L 4 20 L 4 2 Z" stroke="#09F1B8" stroke-width="2" fill="none" stroke-linecap="round" />
+      <path d="M 4 16 L 18 16" stroke="#09F1B8" stroke-width="1.5" />
+      <text x="28" y="13" class="card-title" fill="#09F1B8">TITAN</text>
     </g>
 
     <!-- Card Description Lines -->
     <g transform="translate(15, 62)" class="card-list">
       <!-- Bullet 1 -->
-      <circle cx="5" cy="5" r="2" class="card-bullet" fill="#d1a759" />
-      <text x="18" y="9" font-weight="700" fill="#ece3d8">Knowledge Ingestion</text>
-      <text x="18" y="23" fill="#b5ab9f" font-size="10.5">Ingests research, papers, &amp; data sources</text>
+      <circle cx="5" cy="5" r="2.5" class="card-bullet" fill="#09F1B8" />
+      <text x="18" y="9" font-weight="700" fill="#e2e8f0">Knowledge Ingestion</text>
+      <text x="18" y="23" fill="#94a3b8" font-size="10.5">Ingests research, papers, &amp; data sources</text>
       
       <!-- Bullet 2 -->
-      <circle cx="5" cy="45" r="2" class="card-bullet" />
-      <text x="18" y="49" font-weight="700" fill="#ece3d8">Signal Distillation</text>
-      <text x="18" y="63" fill="#b5ab9f" font-size="10.5">Transforms unstructured research into bots</text>
+      <circle cx="5" cy="45" r="2.5" class="card-bullet" />
+      <text x="18" y="49" font-weight="700" fill="#e2e8f0">Signal Distillation</text>
+      <text x="18" y="63" fill="#94a3b8" font-size="10.5">Transforms unstructured research into bots</text>
       
       <!-- Bullet 3 -->
-      <circle cx="5" cy="85" r="2" class="card-bullet" />
-      <text x="18" y="89" font-weight="700" fill="#ece3d8">Proprietary Base</text>
-      <text x="18" y="103" fill="#b5ab9f" font-size="10.5">Forms the quantitative signal library</text>
+      <circle cx="5" cy="85" r="2.5" class="card-bullet" />
+      <text x="18" y="89" font-weight="700" fill="#e2e8f0">Proprietary Base</text>
+      <text x="18" y="103" fill="#94a3b8" font-size="10.5">Forms the quantitative signal library</text>
     </g>
   </g>
 
   <!-- CARD 2: CONTROL PLANE -->
   <g transform="translate(300, 20)">
     <!-- Card Frame -->
-    <rect width="250" height="180" rx="8" fill="url(#card-grad)" stroke="#39352f" stroke-width="1.2" />
+    <rect width="250" height="180" rx="8" fill="url(#card-grad)" stroke="#1e293b" stroke-width="1.5" />
     
     <!-- Neon Top Border Accent -->
-    <path d="M 8 0 L 242 0" stroke="url(#teal-neon)" stroke-width="2" stroke-linecap="round" />
+    <path d="M 8 0 L 242 0" stroke="url(#purple-neon)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-purple)" />
     
     <!-- Number Indicator (Right side) -->
-    <text x="215" y="32" class="card-num" fill="#69a7ad">02</text>
+    <text x="205" y="32" class="card-num" fill="#8B5CF6" filter="url(#glow-purple)">02</text>
 
     <!-- Card Icon & Header -->
     <g transform="translate(15, 25)">
       <!-- Target / Control Console Icon -->
-      <circle cx="10" cy="10" r="8" stroke="#69a7ad" stroke-width="2" fill="none" />
-      <line x1="10" y1="2" x2="10" y2="18" stroke="#69a7ad" stroke-width="1.5" />
-      <line x1="2" y1="10" x2="18" y2="10" stroke="#69a7ad" stroke-width="1.5" />
-      <text x="28" y="13" class="card-title" fill="#69a7ad">CONTROL PLANE</text>
+      <circle cx="10" cy="10" r="8" stroke="#8B5CF6" stroke-width="2" fill="none" />
+      <line x1="10" y1="2" x2="10" y2="18" stroke="#8B5CF6" stroke-width="1.5" />
+      <line x1="2" y1="10" x2="18" y2="10" stroke="#8B5CF6" stroke-width="1.5" />
+      <text x="28" y="13" class="card-title" fill="#8B5CF6">CONTROL PLANE</text>
     </g>
 
     <!-- Card Description Lines -->
     <g transform="translate(15, 62)" class="card-list">
       <!-- Bullet 1 -->
-      <circle cx="5" cy="5" r="2" class="card-bullet" fill="#69a7ad" />
-      <text x="18" y="9" font-weight="700" fill="#ece3d8">AI Orchestration</text>
-      <text x="18" y="23" fill="#b5ab9f" font-size="10.5">Governs agentic code generation &amp; flows</text>
+      <circle cx="5" cy="5" r="2.5" class="card-bullet" fill="#8B5CF6" />
+      <text x="18" y="9" font-weight="700" fill="#e2e8f0">AI Orchestration</text>
+      <text x="18" y="23" fill="#94a3b8" font-size="10.5">Governs agentic code generation &amp; flows</text>
       
       <!-- Bullet 2 -->
-      <circle cx="5" cy="45" r="2" class="card-bullet" />
-      <text x="18" y="49" font-weight="700" fill="#ece3d8">Memory &amp; Telemetry</text>
-      <text x="18" y="63" fill="#b5ab9f" font-size="10.5">Auditable logs, system tracking &amp; rules</text>
+      <circle cx="5" cy="45" r="2.5" class="card-bullet" />
+      <text x="18" y="49" font-weight="700" fill="#e2e8f0">Memory &amp; Telemetry</text>
+      <text x="18" y="63" fill="#94a3b8" font-size="10.5">Auditable logs, system tracking &amp; rules</text>
       
       <!-- Bullet 3 -->
-      <circle cx="5" cy="85" r="2" class="card-bullet" />
-      <text x="18" y="89" font-weight="700" fill="#ece3d8">Operational Leverage</text>
-      <text x="18" y="103" fill="#b5ab9f" font-size="10.5">Forces AI execution of complex operations</text>
+      <circle cx="5" cy="85" r="2.5" class="card-bullet" />
+      <text x="18" y="89" font-weight="700" fill="#e2e8f0">Operational Leverage</text>
+      <text x="18" y="103" fill="#94a3b8" font-size="10.5">Forces AI execution of complex operations</text>
     </g>
   </g>
 
   <!-- CARD 3: CYCLE LAB -->
   <g transform="translate(575, 20)">
     <!-- Card Frame -->
-    <rect width="250" height="180" rx="8" fill="url(#card-grad)" stroke="#39352f" stroke-width="1.2" />
+    <rect width="250" height="180" rx="8" fill="url(#card-grad)" stroke="#1e293b" stroke-width="1.5" />
     
     <!-- Neon Top Border Accent -->
-    <path d="M 8 0 L 242 0" stroke="url(#gold-neon)" stroke-width="2" stroke-linecap="round" filter="url(#glow-gold)" />
+    <path d="M 8 0 L 242 0" stroke="url(#cyan-neon)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-teal)" />
     
     <!-- Number Indicator (Right side) -->
-    <text x="215" y="32" class="card-num">03</text>
+    <text x="205" y="32" class="card-num" filter="url(#glow-teal)">03</text>
 
     <!-- Card Icon & Header -->
     <g transform="translate(15, 25)">
       <!-- Line Chart / Dollar Icon -->
-      <path d="M 2 16 L 6 10 L 12 14 L 20 4 M 20 4 H 14 M 20 4 V 10" stroke="#d1a759" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-      <text x="28" y="13" class="card-title" fill="#d1a759">CYCLE LAB</text>
+      <path d="M 2 16 L 6 10 L 12 14 L 20 4 M 20 4 H 14 M 20 4 V 10" stroke="#09F1B8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="28" y="13" class="card-title" fill="#09F1B8">CYCLE LAB</text>
     </g>
 
     <!-- Card Description Lines -->
     <g transform="translate(15, 62)" class="card-list">
       <!-- Bullet 1 -->
-      <circle cx="5" cy="5" r="2" class="card-bullet" fill="#d1a759" />
-      <text x="18" y="9" font-weight="700" fill="#ece3d8">Quant SaaS Platform</text>
-      <text x="18" y="23" fill="#b5ab9f" font-size="10.5">Flagship analytics, dashboards &amp; signals</text>
+      <circle cx="5" cy="5" r="2.5" class="card-bullet" fill="#09F1B8" />
+      <text x="18" y="9" font-weight="700" fill="#e2e8f0">Quant SaaS Platform</text>
+      <text x="18" y="23" fill="#94a3b8" font-size="10.5">Flagship analytics, dashboards &amp; signals</text>
       
       <!-- Bullet 2 -->
-      <circle cx="5" cy="45" r="2" class="card-bullet" />
-      <text x="18" y="49" font-weight="700" fill="#ece3d8">Execution Trading Bots</text>
-      <text x="18" y="63" fill="#b5ab9f" font-size="10.5">High-marginality execution products</text>
+      <circle cx="5" cy="45" r="2.5" class="card-bullet" />
+      <text x="18" y="49" font-weight="700" fill="#e2e8f0">Execution Trading Bots</text>
+      <text x="18" y="63" fill="#94a3b8" font-size="10.5">High-marginality execution products</text>
       
       <!-- Bullet 3 -->
-      <circle cx="5" cy="85" r="2" class="card-bullet" />
-      <text x="18" y="89" font-weight="700" fill="#ece3d8">Leveraged Monetization</text>
-      <text x="18" y="103" fill="#b5ab9f" font-size="10.5">Commercial capture of the entire loop</text>
+      <circle cx="5" cy="85" r="2.5" class="card-bullet" />
+      <text x="18" y="89" font-weight="700" fill="#e2e8f0">Leveraged Monetization</text>
+      <text x="18" y="103" fill="#94a3b8" font-size="10.5">Commercial capture of the entire loop</text>
     </g>
   </g>
 </svg>
