@@ -7,10 +7,15 @@
       <stop offset="100%" stop-color="#070a13" />
     </linearGradient>
 
-    <!-- Glowing Accent Gradients (Teal, Azzurro, Purple) -->
+    <!-- Glowing Accent Gradients (Azzurro / Light Blue & Deep Blue) -->
     <linearGradient id="cyan-neon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#09F1B8" />
       <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+
+    <linearGradient id="blue-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#3b82f6" />
     </linearGradient>
 
     <linearGradient id="purple-neon" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -18,6 +23,7 @@
       <stop offset="100%" stop-color="#ec4899" />
     </linearGradient>
 
+    <!-- Wave/Cycle Gradient -->
     <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.1" />
       <stop offset="50%" stop-color="#09F1B8" stop-opacity="0.6" />
@@ -58,7 +64,7 @@
     .subtitle-spec {
       font-family: 'Fira Code', 'Courier New', monospace;
       font-weight: 600;
-      fill: #09F1B8;
+      fill: #0ea5e9;
       letter-spacing: 2px;
       font-size: 11.5px;
     }
@@ -75,8 +81,9 @@
     }
     
     .cyan-txt { fill: #09F1B8; }
+    .blue-txt { fill: #0ea5e9; }
     .purple-txt { fill: #8B5CF6; }
-    .bright-txt { fill: #e2e8f0; }
+    .bright-txt { fill: #ffffff; }
 
     /* Animated Status Dot */
     @keyframes pulse-cyan {
@@ -94,7 +101,7 @@
     }
     .term-cursor {
       animation: cursor-blink 1.2s step-end infinite;
-      fill: #09F1B8;
+      fill: #0ea5e9;
     }
 
     /* Wave drawing animation */
@@ -110,7 +117,7 @@
     ]]>
   </style>
 
-  <!-- Container Base (Cyberpunk Dark Border) -->
+  <!-- Container Base -->
   <rect width="848" height="278" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
 
   <!-- Grid Overlay -->
@@ -121,7 +128,7 @@
         fill="none" stroke="url(#wave-grad)" stroke-width="3" filter="url(#glow-soft)" />
         
   <path class="animated-wave" d="M -50 180 C 100 120, 200 240, 350 170 C 500 100, 600 220, 750 160 C 850 120, 900 180, 950 180" 
-        fill="none" stroke="#09F1B8" stroke-width="1.5" opacity="0.8" />
+        fill="none" stroke="#0ea5e9" stroke-width="1.5" opacity="0.8" />
 
   <!-- LEFT SIDE: Glassmorphic Ecosytem Terminal (Flywheel Visualizer) -->
   <g transform="translate(35, 45)">
@@ -137,17 +144,17 @@
 
     <!-- Terminal Output -->
     <g transform="translate(18, 38)">
-      <text x="0" y="20" class="terminal-text"><tspan class="purple-txt">info@finazzi</tspan>:<tspan class="cyan-txt">~/platform</tspan>$ ./matassa --init</text>
+      <text x="0" y="20" class="terminal-text"><tspan class="purple-txt">info@finazzi</tspan>:<tspan class="blue-txt">~/platform</tspan>$ ./matassa --init</text>
       
-      <text x="0" y="42" class="terminal-text">[<tspan class="cyan-txt">OK</tspan>] Cycle Lab quant engine active.</text>
-      <text x="0" y="62" class="terminal-text">[<tspan class="cyan-txt">OK</tspan>] Titan research compiler running.</text>
+      <text x="0" y="42" class="terminal-text">[<tspan class="blue-txt">OK</tspan>] Cycle Lab quant engine active.</text>
+      <text x="0" y="62" class="terminal-text">[<tspan class="blue-txt">OK</tspan>] Titan research compiler running.</text>
       <text x="0" y="82" class="terminal-text">[<tspan class="purple-txt">INF</tspan>] Control Plane agent context compiled.</text>
       
-      <text x="0" y="102" class="terminal-text">[<tspan class="cyan-txt">SYS</tspan>] Operational status: <tspan class="cyan-txt">Optimal Loop</tspan></text>
-      <text x="0" y="122" class="terminal-text">[<tspan class="cyan-txt">SYS</tspan>] Data flow speed: <tspan class="purple-txt">0.02ms latency</tspan></text>
+      <text x="0" y="102" class="terminal-text">[<tspan class="blue-txt">SYS</tspan>] Operational status: <tspan class="blue-txt">Optimal Loop</tspan></text>
+      <text x="0" y="122" class="terminal-text">[<tspan class="blue-txt">SYS</tspan>] Data flow speed: <tspan class="purple-txt">0.02ms latency</tspan></text>
       
       <!-- Prompt Line -->
-      <text x="0" y="142" class="terminal-text"><tspan class="purple-txt">info@finazzi</tspan>:<tspan class="cyan-txt">~/platform</tspan>$ <tspan class="bright-txt">sys_state --check</tspan><tspan class="term-cursor">█</tspan></text>
+      <text x="0" y="142" class="terminal-text"><tspan class="purple-txt">info@finazzi</tspan>:<tspan class="blue-txt">~/platform</tspan>$ <tspan class="bright-txt">sys_state --check</tspan><tspan class="term-cursor">█</tspan></text>
     </g>
   </g>
 
@@ -155,9 +162,9 @@
   <g transform="translate(435, 45)">
     <!-- Active Status HUD Badge -->
     <g transform="translate(230, 0)">
-      <rect width="130" height="24" rx="12" fill="#0b1716" stroke="#09F1B8" stroke-opacity="0.3" stroke-width="1" />
+      <rect width="130" height="24" rx="12" fill="#0b1716" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1" />
       <circle cx="16" cy="12" r="4.5" class="status-dot-cyan" />
-      <text x="28" y="16" font-family="'Fira Code', monospace" font-size="9" fill="#09F1B8" font-weight="bold">SYSTEMS ACTIVE</text>
+      <text x="28" y="16" font-family="'Fira Code', monospace" font-size="9" fill="#0ea5e9" font-weight="bold">SYSTEMS ACTIVE</text>
     </g>
 
     <!-- Main Editorial Headline -->
@@ -169,7 +176,7 @@
       <!-- 01 / TITAN -->
       <g transform="translate(0, 0)">
         <rect width="360" height="32" rx="4" fill="#070c14" fill-opacity="0.8" stroke="#1e293b" stroke-width="0.8" />
-        <text x="12" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#09F1B8">01 / TITAN</text>
+        <text x="12" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#0ea5e9">01 / TITAN</text>
         <text x="95" y="20" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">Knowledge &amp; Quantitative Ingestion Engine</text>
       </g>
 
@@ -183,7 +190,7 @@
       <!-- 03 / CYCLE LAB -->
       <g transform="translate(0, 84)">
         <rect width="360" height="32" rx="4" fill="#070c14" fill-opacity="0.8" stroke="#1e293b" stroke-width="0.8" />
-        <text x="12" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#09F1B8">03 / CYCLE LAB</text>
+        <text x="12" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#0ea5e9">03 / CYCLE LAB</text>
         <text x="95" y="20" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">SaaS Platform, Trading Systems &amp; Revenue</text>
       </g>
     </g>

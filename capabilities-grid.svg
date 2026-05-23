@@ -16,7 +16,12 @@
     <!-- Glowing Accents -->
     <linearGradient id="cyan-neon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#09F1B8" />
-      <stop offset="100%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+
+    <linearGradient id="blue-neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#3b82f6" />
     </linearGradient>
 
     <linearGradient id="purple-neon" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -26,6 +31,14 @@
 
     <!-- Glowing filters -->
     <filter id="glow-teal" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -53,8 +66,8 @@
       font-family: 'Fira Code', monospace;
       font-weight: 800;
       font-size: 24px;
-      fill: #09F1B8;
-      opacity: 0.65;
+      fill: #0ea5e9;
+      opacity: 0.75;
     }
     .card-title {
       font-family: system-ui, -apple-system, sans-serif;
@@ -84,23 +97,23 @@
     <rect width="250" height="180" rx="8" fill="url(#card-grad)" stroke="#1e293b" stroke-width="1.5" />
     
     <!-- Neon Top Border Accent -->
-    <path d="M 8 0 L 242 0" stroke="url(#cyan-neon)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-teal)" />
+    <path d="M 8 0 L 242 0" stroke="url(#blue-neon)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-blue)" />
     
     <!-- Number Indicator (Right side) -->
-    <text x="205" y="32" class="card-num" filter="url(#glow-teal)">01</text>
+    <text x="205" y="32" class="card-num" filter="url(#glow-blue)">01</text>
 
     <!-- Card Icon & Header -->
     <g transform="translate(15, 25)">
       <!-- Ingest Book/Source Icon -->
-      <path d="M 4 2 L 18 2 C 20 2, 21 3, 21 5 L 21 17 C 21 19, 20 20, 18 20 L 4 20 L 4 2 Z" stroke="#09F1B8" stroke-width="2" fill="none" stroke-linecap="round" />
-      <path d="M 4 16 L 18 16" stroke="#09F1B8" stroke-width="1.5" />
-      <text x="28" y="13" class="card-title" fill="#09F1B8">TITAN</text>
+      <path d="M 4 2 L 18 2 C 20 2, 21 3, 21 5 L 21 17 C 21 19, 20 20, 18 20 L 4 20 L 4 2 Z" stroke="#0ea5e9" stroke-width="2" fill="none" stroke-linecap="round" />
+      <path d="M 4 16 L 18 16" stroke="#0ea5e9" stroke-width="1.5" />
+      <text x="28" y="13" class="card-title" fill="#0ea5e9">TITAN</text>
     </g>
 
     <!-- Card Description Lines -->
     <g transform="translate(15, 62)" class="card-list">
       <!-- Bullet 1 -->
-      <circle cx="5" cy="5" r="2.5" class="card-bullet" fill="#09F1B8" />
+      <circle cx="5" cy="5" r="2.5" class="card-bullet" fill="#0ea5e9" />
       <text x="18" y="9" font-weight="700" fill="#e2e8f0">Knowledge Ingestion</text>
       <text x="18" y="23" fill="#94a3b8" font-size="10.5">Ingests research, papers, &amp; data sources</text>
       
