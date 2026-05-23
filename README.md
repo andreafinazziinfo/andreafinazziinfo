@@ -1,6 +1,6 @@
 <!-- HERO BANNER SECTION -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/hero-banner.svg" width="100%" alt="Andrea Finazzi - Quantitative Architect &amp; Systems Builder" />
+  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/hero-banner.svg?v=4" width="100%" alt="Andrea Finazzi - Quantitative Architect &amp; Systems Builder" />
   
   <br><br>
 
@@ -13,7 +13,7 @@
 </div>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -41,19 +41,19 @@ I engineer robust quantitative software environments centered around a **self-re
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
 
 <br>
 
 <!-- CORE CAPABILITIES GRID -->
 ### 🛠️ Core Capabilities & Systems
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/capabilities-grid.svg" width="100%" alt="Core Capabilities &amp; Systems Dashboard" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/capabilities-grid.svg?v=4" width="100%" alt="Core Capabilities &amp; Systems Dashboard" />
 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -62,14 +62,14 @@ I engineer robust quantitative software environments centered around a **self-re
 
 <div align="center">
   <a href="https://github.com/andreafinazziinfo/claude-statusline-pro">
-    <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project.svg" width="100%" alt="Featured Public Project: claude-statusline-pro" />
+    <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project.svg?v=4" width="100%" alt="Featured Public Project: claude-statusline-pro" />
   </a>
 </div>
 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -80,7 +80,7 @@ I structure my systems around an absolute segregation between trading execution 
 
 <br>
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/operating-model.svg" width="100%" alt="Operational Segregation Flowchart" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/operating-model.svg?v=4" width="100%" alt="Operational Segregation Flowchart" />
 
 <br><br>
 
@@ -91,12 +91,12 @@ Below is a live conceptual representation of **Cycle Lab**'s market cycle harmon
 
 <br>
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/quant-hud.svg" width="100%" alt="Cycle Lab Operations Monitor HUD" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/quant-hud.svg?v=4" width="100%" alt="Cycle Lab Operations Monitor HUD" />
 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -163,7 +163,7 @@ Here is a structured look at the technologies, engines, and utilities I leverage
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -174,7 +174,7 @@ I operate a local-first, high-security workflow. My public GitHub profile reflec
 
 <br>
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/telemetry-dashboard.svg" width="100%" alt="Operational Telemetry &amp; Activity Dashboard" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/telemetry-dashboard.svg?v=4" width="100%" alt="Operational Telemetry &amp; Activity Dashboard" />
 
 <br>
 
@@ -185,7 +185,7 @@ I operate a local-first, high-security workflow. My public GitHub profile reflec
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
 
 <br>
 

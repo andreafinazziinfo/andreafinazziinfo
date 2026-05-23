@@ -33,7 +33,7 @@
       </feMerge>
     </filter>
 
-    <!-- Grid Pattern -->
+    <!-- Cyber Grid Pattern -->
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4" />
     </pattern>
@@ -105,9 +105,9 @@
     <rect width="400" height="150" rx="8" fill="url(#term-grad)" stroke="#1e293b" stroke-width="1.5" />
     
     <!-- Title bar dots -->
-    <circle cx="16" cy="16" r="4" fill="#ef4444" />
-    <circle cx="28" cy="16" r="4" fill="#eab308" />
-    <circle cx="40" cy="16" r="4" fill="#22c55e" />
+    <circle cx="16" cy="16" r="4" fill="#ef4444" opacity="0.75" />
+    <circle cx="28" cy="16" r="4" fill="#eab308" opacity="0.75" />
+    <circle cx="40" cy="16" r="4" fill="#22c55e" opacity="0.75" />
     <text x="60" y="19" font-family="'Fira Code', 'Courier New', monospace" font-size="9" fill="#475569" font-weight="bold">HUD_OUTPUT // ACTIVE_SESSION</text>
     
     <!-- HUD Graphical Representation inside terminal -->
@@ -152,7 +152,7 @@
     <text x="0" y="70" class="desc-text">real-time tokens, session costs, Git branch, and tool freshness</text>
     <text x="0" y="88" class="desc-text">directly inside your shell environment.</text>
     
-    <!-- Custom SVG Badges (aligned horizontally) -->
+    <!-- Custom SVG Badges (aligned horizontally - strictly gold-free) -->
     <g transform="translate(0, 115)">
       <!-- Badge 1: Status: Active -->
       <g transform="translate(0, 0)">
@@ -161,10 +161,10 @@
         <text x="26" y="15" class="badge-text" fill="#10b981">Active HUD</text>
       </g>
 
-      <!-- Badge 2: License: MIT -->
+      <!-- Badge 2: License: MIT (Now Purged of Gold/Amber) -->
       <g transform="translate(115, 0)">
-        <rect width="85" height="22" rx="4" fill="#181308" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1" />
-        <text x="12" y="15" class="badge-text" fill="#f59e0b">⚖️ MIT</text>
+        <rect width="85" height="22" rx="4" fill="#0b1424" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1" />
+        <text x="12" y="15" class="badge-text" fill="#0ea5e9">⚖️ MIT</text>
       </g>
 
       <!-- Badge 3: Language: Bash -->
