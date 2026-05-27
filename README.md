@@ -9,20 +9,47 @@
     <a href="https://andreafinazzi.com"><img src="https://img.shields.io/badge/Web-andreafinazzi.com-09F1B8?style=flat-square&logo=google-chrome&logoColor=black" alt="Website Portal" /></a>
     &nbsp;&nbsp;
     <a href="mailto:andrea.finazzi.info@gmail.com"><img src="https://img.shields.io/badge/Email-andrea.finazzi.info-8B5CF6?style=flat-square&logo=gmail&logoColor=white" alt="Secure Email" /></a>
+    &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Location-Siziano,_Lombardy-0b0f19?style=flat-square&logo=google-maps&logoColor=09F1B8" alt="Location" />
   </p>
+
+  <p align="center"><strong>Quantitative architect</strong> building local-first trading systems, agent orchestration, and terminal DX tooling.<br>
+  Public OSS here · proprietary quant stack stays private.</p>
 </div>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=5" width="100%" alt="Visual Separator" />
+
+<br>
+
+<!-- NOW BUILDING -->
+### 🚀 Now Building
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="border-left: 4px solid #8B5CF6; padding-left: 15px; padding-top: 10px; padding-bottom: 10px; background-color: #0c1020; border-radius: 4px; color: #cbd5e1;">
+      <p align="left">
+        <strong>Cycle Lab</strong> — market-cycle terminal &amp; execution stack &nbsp;·&nbsp;
+        <strong>Control Plane</strong> — agent-ops dashboard &nbsp;·&nbsp;
+        <strong>claude-statusline-pro</strong> — <a href="https://github.com/andreafinazziinfo/claude-statusline-pro">terminal HUD for Claude Code</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- Dynamic Divider -->
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=5" width="100%" alt="Visual Separator" />
 
 <br>
 
 <!-- OPERATIONAL PHILOSOPHY -->
 ### 🧠 Operational Philosophy
 
-> "High-performance logic deserves high-fidelity presentation. Research, execution, and monetization must operate as a single self-reinforcing flywheel."
+> "High-performance logic deserves high-fidelity presentation."
 
-I engineer robust quantitative software environments centered around a **self-reinforcing three-engine flywheel**. I believe that deep quantitative research (**Titan**), automated agentic AI orchestration (**Control Plane**), and premium product-market execution (**Cycle Lab**) must operate as a unified, high-fidelity system that maximizes capital efficiency and developer leverage.
+I engineer quantitative environments as a **three-engine flywheel**: research (**Titan**) → agent automation (**Control Plane**) → product &amp; execution (**Cycle Lab**).
 
 <br>
 
@@ -31,8 +58,8 @@ I engineer robust quantitative software environments centered around a **self-re
   <tr>
     <td style="border-left: 4px solid #09F1B8; padding-left: 15px; padding-top: 10px; padding-bottom: 10px; background-color: #0c1020; border-radius: 4px; color: #cbd5e1;">
       <p align="left">
-        <strong>🔄 The Technical Flywheel Standard: Unified Operational Leverage</strong><br>
-        Every single project I build must feed into a continuous operational loop. Quantitative research and insights distilled by <strong>Titan</strong> are compiled and automated by <strong>Control Plane</strong>'s AI-orchestrated environments, and then monetized and scaled directly through <strong>Cycle Lab</strong>'s SaaS products and execution bots. <strong>Complexity is compressed, value is captured, and the flywheel accelerates.</strong>
+        <strong>🔄 The Technical Flywheel</strong><br>
+        Each engine feeds the next: insights from <strong>Titan</strong>, orchestrated by <strong>Control Plane</strong>, shipped through <strong>Cycle Lab</strong>. Complexity compresses; the loop accelerates.
       </p>
     </td>
   </tr>
@@ -65,6 +92,16 @@ I engineer robust quantitative software environments centered around a **self-re
     <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project.svg?v=4" width="100%" alt="Featured Public Project: claude-statusline-pro" />
   </a>
 </div>
+
+<p align="center">
+  <a href="https://github.com/andreafinazziinfo/claude-statusline-pro"><img src="https://img.shields.io/badge/claude--statusline--pro-Terminal_HUD-09F1B8?style=flat-square&logo=gnu-bash&logoColor=black" alt="claude-statusline-pro" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/andreafinazziinfo/claude-statusline-pro?style=flat-square&logo=github&label=stars&color=0b0f19" alt="Stars" />
+  &nbsp;
+  <img src="https://img.shields.io/github/license/andreafinazziinfo/claude-statusline-pro?style=flat-square&color=0b0f19&label=MIT" alt="License" />
+</p>
+
+<p align="center"><em>3-line HUD for Claude Code — tokens, git state, tool freshness, session cost.</em></p>
 
 <br>
 
@@ -170,11 +207,25 @@ Here is a structured look at the technologies, engines, and utilities I leverage
 <!-- OPERATIONAL TELEMETRY -->
 ### 📊 Operational Telemetry & Activity
 
-I operate a local-first, high-security workflow. My public GitHub profile reflects only my open-source infrastructure tools, while most of my quantitative analysis and proprietary trading code stays private.
+Local-first workflow — public GitHub shows OSS DX tooling only; proprietary quant code stays private.
 
 <br>
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/telemetry-dashboard.svg?v=4" width="100%" alt="Operational Telemetry &amp; Activity Dashboard" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=andreafinazziinfo&show_icons=true&theme=transparent&bg_color=0b0f19&title_color=09F1B8&text_color=cbd5e1&icon_color=8B5CF6&hide_border=true&include_all_commits=true&count_private=false" width="100%" alt="GitHub Stats" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=andreafinazziinfo&theme=dark&background=0b0f19&ring=09F1B8&fire=8B5CF6&currStreakLabel=09F1B8&sideLabels=cbd5e1&dates=64748b&hide_border=true" width="100%" alt="Contribution Streak" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=andreafinazziinfo&bg_color=0b0f19&color=09F1B8&line=8B5CF6&point=cbd5e1&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+    </td>
+  </tr>
+</table>
 
 <br>
 
