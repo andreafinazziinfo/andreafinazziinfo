@@ -8,6 +8,8 @@
   <p align="center">
     <a href="https://andreafinazzi.com"><img src="https://img.shields.io/badge/Web-andreafinazzi.com-09F1B8?style=flat-square&logo=google-chrome&logoColor=black" alt="Website Portal" /></a>
     &nbsp;&nbsp;
+    <a href="https://www.tradingview.com/u/AnDr3HA/"><img src="https://img.shields.io/badge/TradingView-@AnDr3HA-8B5CF6?style=flat-square&logo=tradingview&logoColor=white" alt="TradingView Profile" /></a>
+    &nbsp;&nbsp;
     <a href="mailto:andrea.finazzi.info@gmail.com"><img src="https://img.shields.io/badge/Email-andrea.finazzi.info-8B5CF6?style=flat-square&logo=gmail&logoColor=white" alt="Secure Email" /></a>
     &nbsp;&nbsp;
     <img src="https://img.shields.io/badge/Location-Siziano,_Lombardy-0b0f19?style=flat-square&logo=google-maps&logoColor=09F1B8" alt="Location" />
@@ -191,7 +193,7 @@ Here is a structured look at the technologies, engines, and utilities I leverage
   <br>
   <p>
     <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS_Code-0b0f19?style=flat-square&logo=visual-studio-code&logoColor=8B5CF6" alt="VS Code" /></a>
-    <a href="https://www.tradingview.com/" target="_blank"><img src="https://img.shields.io/badge/TradingView-0b0f19?style=flat-square&logo=tradingview&logoColor=09F1B8" alt="TradingView" /></a>
+    <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank"><img src="https://img.shields.io/badge/TradingView-@AnDr3HA-0b0f19?style=flat-square&logo=tradingview&logoColor=09F1B8" alt="TradingView @AnDr3HA" /></a>
     <a href="https://alpinelinux.org/" target="_blank"><img src="https://img.shields.io/badge/Alpine_Linux-0b0f19?style=flat-square&logo=alpine-linux&logoColor=8B5CF6" alt="Alpine Linux" /></a>
     <a href="https://www.anthropic.com/claude" target="_blank"><img src="https://img.shields.io/badge/Claude_AI-0b0f19?style=flat-square&logo=anthropic&logoColor=09F1B8" alt="Claude AI" /></a>
   </p>
