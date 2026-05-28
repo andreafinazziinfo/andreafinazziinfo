@@ -33,7 +33,8 @@
       <p align="left">
         <strong>Cycle Lab</strong> — market-cycle terminal &amp; execution stack &nbsp;·&nbsp;
         <strong>Control Plane</strong> — agent-ops dashboard &nbsp;·&nbsp;
-        <strong>claude-statusline-pro</strong> — <a href="https://github.com/andreafinazziinfo/claude-statusline-pro">terminal HUD for Claude Code</a>
+        <strong><a href="https://github.com/andreafinazziinfo/matassa-cycle-framework">Matassa Cycle Framework</a></strong> — public T-scale reference tables &nbsp;·&nbsp;
+        <strong><a href="https://github.com/andreafinazziinfo/claude-statusline-pro">claude-statusline-pro</a></strong> — terminal HUD for Claude Code
       </p>
     </td>
   </tr>
@@ -87,7 +88,7 @@ I engineer quantitative environments as a **three-engine flywheel**: research (*
 <br>
 
 <!-- FEATURED PUBLIC PROJECT SPOTLIGHT -->
-### 🔌 Featured Public Project
+### 🔌 Featured Public Projects
 
 <div align="center">
   <a href="https://github.com/andreafinazziinfo/claude-statusline-pro">
@@ -104,6 +105,20 @@ I engineer quantitative environments as a **three-engine flywheel**: research (*
 </p>
 
 <p align="center"><em>3-line HUD for Claude Code — tokens, git state, tool freshness, session cost.</em></p>
+
+<br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="border-left: 4px solid #09F1B8; padding-left: 15px; padding-top: 12px; padding-bottom: 12px; background-color: #0c1020; border-radius: 4px; color: #cbd5e1;">
+      <p align="left">
+        <strong>📐 <a href="https://github.com/andreafinazziinfo/matassa-cycle-framework">matassa-cycle-framework</a></strong> — public reference layer for cyclical analysis<br>
+        Optimized T-scale duration tables (MIN → MAX) · six market calibrations · framework docs<br>
+        Full <strong>Matassa Completa</strong> indicator on <a href="https://www.tradingview.com/u/AnDr3HA/">TradingView @AnDr3HA</a> (invite-only) · execution stack private
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
