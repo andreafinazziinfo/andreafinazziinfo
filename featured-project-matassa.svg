@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0a0f1d" />
+      <stop offset="100%" stop-color="#070a13" />
+    </linearGradient>
+    <linearGradient id="term-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b1224" />
+      <stop offset="100%" stop-color="#040710" />
+    </linearGradient>
+    <linearGradient id="purple-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#09F1B8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <style>
+    <![CDATA[
+    .title-text { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 20px; letter-spacing: 1px; }
+    .desc-text { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .mono-text { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #cbd5e1; }
+    .badge-text { font-family: 'Fira Code', 'Courier New', monospace; font-size: 10px; font-weight: bold; }
+    @keyframes wave-flow { 0% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -40; } }
+    .cycle-line { stroke-dasharray: 8 6; animation: wave-flow 3s linear infinite; }
+    ]]>
+  </style>
+
+  <rect width="848" height="198" x="1" y="1" rx="10" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1" />
+  <rect width="848" height="198" x="1" y="1" rx="10" fill="url(#grid)" />
+
+  <g transform="translate(30, 24)">
+    <rect width="400" height="150" rx="8" fill="url(#term-grad)" stroke="#1e293b" stroke-width="1.5" />
+    <circle cx="16" cy="16" r="4" fill="#ef4444" opacity="0.75" />
+    <circle cx="28" cy="16" r="4" fill="#eab308" opacity="0.75" />
+    <circle cx="40" cy="16" r="4" fill="#22c55e" opacity="0.75" />
+    <text x="60" y="19" font-family="'Fira Code', monospace" font-size="9" fill="#475569" font-weight="bold">T_SCALE_REFERENCE // MATASSA_FRAMEWORK</text>
+
+    <g transform="translate(15, 35)">
+      <rect x="0" y="0" width="370" height="100" rx="6" fill="#04060b" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="18" class="mono-text" fill="#8B5CF6" font-weight="bold">CALIBRATION</text>
+      <text x="110" y="18" class="mono-text" fill="#cbd5e1">CRYPTO · FOREX · INDICES</text>
+
+      <text x="12" y="38" class="mono-text" fill="#09F1B8">MIN</text>
+      <text x="50" y="38" class="mono-text">4H</text>
+      <text x="90" y="38" class="mono-text">1D</text>
+      <text x="130" y="38" class="mono-text">3D</text>
+      <text x="170" y="38" class="mono-text">1W</text>
+      <text x="210" y="38" class="mono-text">2W</text>
+
+      <text x="12" y="58" class="mono-text" fill="#09F1B8">MAX</text>
+      <text x="50" y="58" class="mono-text">1W</text>
+      <text x="90" y="58" class="mono-text">1M</text>
+      <text x="130" y="58" class="mono-text">3M</text>
+      <text x="170" y="58" class="mono-text">6M</text>
+      <text x="210" y="58" class="mono-text">1Y</text>
+
+      <path class="cycle-line" d="M 12 82 C 80 62, 140 95, 210 70 S 340 88, 358 75" fill="none" stroke="url(#purple-glow)" stroke-width="2" />
+      <text x="12" y="96" class="mono-text" fill="#64748b">> harmonic cycle mapping · public reference tables</text>
+    </g>
+  </g>
+
+  <g transform="translate(460, 24)">
+    <text x="0" y="25" class="title-text" fill="#ffffff" filter="url(#glow)">=Ð matassa-cycle-framework</text>
+    <text x="0" y="52" class="desc-text">Public reference layer for cyclical market analysis </text>
+    <text x="0" y="70" class="desc-text">optimized T-scale duration tables, six calibrations,</text>
+    <text x="0" y="88" class="desc-text">and framework docs for the Matassa methodology.</text>
+
+    <g transform="translate(0, 115)">
+      <g transform="translate(0,0)">
+        <rect width="120" height="22" rx="4" fill="#100b21" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1" />
+        <text x="12" y="15" class="badge-text" fill="#8B5CF6">=Ê T-Scale Tables</text>
+      </g>
+      <g transform="translate(130,0)">
+        <rect width="115" height="22" rx="4" fill="#0b1716" stroke="#09F1B8" stroke-opacity="0.4" stroke-width="1" />
+        <text x="12" y="15" class="badge-text" fill="#09F1B8">= 6 Calibrations</text>
+      </g>
+      <g transform="translate(255,0)">
+        <rect width="130" height="22" rx="4" fill="#0b1424" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1" />
+        <text x="12" y="15" class="badge-text" fill="#0ea5e9">=È Quant Reference</text>
+      </g>
+    </g>
+  </g>
+</svg>

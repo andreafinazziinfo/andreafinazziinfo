@@ -1,30 +1,21 @@
 <!-- HERO BANNER SECTION -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/hero-banner.svg?v=4" width="100%" alt="Andrea Finazzi - Quantitative Architect &amp; Systems Builder" />
-  
-  <br><br>
+  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/hero-banner.svg?v=6" width="100%" alt="Andrea Finazzi - Quantitative Architect &amp; Systems Builder" />
 
-  <!-- Quick Action Badges -->
+  <!-- Quick Action Chips -->
   <p align="center">
-    <a href="https://andreafinazzi.com"><img src="https://img.shields.io/badge/Web-andreafinazzi.com-09F1B8?style=flat-square&logo=google-chrome&logoColor=black" alt="Website Portal" /></a>
-    &nbsp;&nbsp;
-    <a href="https://www.tradingview.com/u/AnDr3HA/"><img src="https://img.shields.io/badge/TradingView-@AnDr3HA-8B5CF6?style=flat-square&logo=tradingview&logoColor=white" alt="TradingView Profile" /></a>
-    &nbsp;&nbsp;
-    <a href="mailto:andrea.finazzi.info@gmail.com"><img src="https://img.shields.io/badge/Email-andrea.finazzi.info-8B5CF6?style=flat-square&logo=gmail&logoColor=white" alt="Secure Email" /></a>
-    &nbsp;&nbsp;
-    <img src="https://img.shields.io/badge/Location-Siziano,_Lombardy-0b0f19?style=flat-square&logo=google-maps&logoColor=09F1B8" alt="Location" />
+    <a href="https://andreafinazzi.com" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:8px 6px;padding:6px 12px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/googlechrome" width="20" height="20" alt="" />andreafinazzi.com</a>
+    <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:8px 6px;padding:6px 12px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/tradingview" width="20" height="20" alt="" />TradingView @AnDr3HA</a>
+    <a href="mailto:andrea.finazzi.info@gmail.com" style="display:inline-flex;align-items:center;gap:8px;margin:8px 6px;padding:6px 12px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/gmail" width="20" height="20" alt="" />andrea.finazzi.info@gmail.com</a>
+    <span style="display:inline-flex;align-items:center;gap:8px;margin:8px 6px;padding:6px 12px;background:#161b22;border:1px solid #30363d;border-radius:8px;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/googlemaps" width="20" height="20" alt="" />Siziano, Lombardy</span>
   </p>
 
   <p align="center"><strong>Quantitative architect</strong> building local-first trading systems, agent orchestration, and terminal DX tooling.<br>
   Public OSS here · proprietary quant stack stays private.</p>
 </div>
 
-<!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=5" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<br>
-
-<!-- NOW BUILDING -->
 ### 🚀 Now Building
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -40,23 +31,14 @@
   </tr>
 </table>
 
-<br>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=5" width="100%" alt="Visual Separator" />
-
-<br>
-
-<!-- OPERATIONAL PHILOSOPHY -->
 ### 🧠 Operational Philosophy
 
 > "High-performance logic deserves high-fidelity presentation."
 
 I engineer quantitative environments as a **three-engine flywheel**: research (**Titan**) → agent automation (**Control Plane**) → product &amp; execution (**Cycle Lab**).
 
-<br>
-
-<!-- DISTINCTIVE DETAIL: THE THREE-ENGINE FLYWHEEL CALLOUT -->
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td style="border-left: 4px solid #09F1B8; padding-left: 15px; padding-top: 10px; padding-bottom: 10px; background-color: #0c1020; border-radius: 4px; color: #cbd5e1;">
@@ -68,33 +50,19 @@ I engineer quantitative environments as a **three-engine flywheel**: research (*
   </tr>
 </table>
 
-<br>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
-
-<br>
-
-<!-- CORE CAPABILITIES GRID -->
 ### 🛠️ Core Capabilities & Systems
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/capabilities-grid.svg?v=4" width="100%" alt="Core Capabilities &amp; Systems Dashboard" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/capabilities-grid.svg?v=6" width="100%" alt="Core Capabilities &amp; Systems Dashboard" />
 
-<br>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
-
-<br>
-
-<!-- FEATURED PUBLIC PROJECT SPOTLIGHT -->
 ### 🔌 Featured Public Projects
 
-<div align="center">
-  <a href="https://github.com/andreafinazziinfo/claude-statusline-pro">
-    <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project.svg?v=4" width="100%" alt="Featured Public Project: claude-statusline-pro" />
-  </a>
-</div>
+<a href="https://github.com/andreafinazziinfo/claude-statusline-pro">
+  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project.svg?v=6" width="100%" alt="Featured Public Project: claude-statusline-pro" />
+</a>
 
 <p align="center">
   <a href="https://github.com/andreafinazziinfo/claude-statusline-pro"><img src="https://img.shields.io/badge/claude--statusline--pro-Terminal_HUD-09F1B8?style=flat-square&logo=gnu-bash&logoColor=black" alt="claude-statusline-pro" /></a>
@@ -106,127 +74,75 @@ I engineer quantitative environments as a **three-engine flywheel**: research (*
 
 <p align="center"><em>3-line HUD for Claude Code — tokens, git state, tool freshness, session cost.</em></p>
 
-<br>
+<a href="https://github.com/andreafinazziinfo/matassa-cycle-framework">
+  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project-matassa.svg?v=6" width="100%" alt="Featured Public Project: matassa-cycle-framework" />
+</a>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td style="border-left: 4px solid #09F1B8; padding-left: 15px; padding-top: 12px; padding-bottom: 12px; background-color: #0c1020; border-radius: 4px; color: #cbd5e1;">
-      <p align="left">
-        <strong>📐 <a href="https://github.com/andreafinazziinfo/matassa-cycle-framework">matassa-cycle-framework</a></strong> — public reference layer for cyclical analysis<br>
-        Optimized T-scale duration tables (MIN → MAX) · six market calibrations · framework docs<br>
-        Full <strong>Matassa Completa</strong> indicator on <a href="https://www.tradingview.com/u/AnDr3HA/">TradingView @AnDr3HA</a> (invite-only) · execution stack private
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/andreafinazziinfo/matassa-cycle-framework"><img src="https://img.shields.io/badge/matassa--cycle--framework-T_Scale_Reference-8B5CF6?style=flat-square&logo=tradingview&logoColor=white" alt="matassa-cycle-framework" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/andreafinazziinfo/matassa-cycle-framework?style=flat-square&logo=github&label=stars&color=0b0f19" alt="Stars" />
+  &nbsp;
+  <a href="https://www.tradingview.com/u/AnDr3HA/"><img src="https://img.shields.io/badge/Matassa_Completa-TradingView-09F1B8?style=flat-square&logo=tradingview&logoColor=black" alt="TradingView Profile" /></a>
+</p>
 
-<br>
+<p align="center"><em>Public T-scale tables &amp; framework docs · full indicator on <a href="https://www.tradingview.com/u/AnDr3HA/">TradingView @AnDr3HA</a> (invite-only).</em></p>
 
-<!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<br>
-
-<!-- OPERATING MODEL -->
 ### ⚙️ Operating Model
 
 I structure my systems around an absolute segregation between trading execution and open-source infrastructure. My workflows are local-first and private-by-default, keeping intellectual property highly protected while sharing developer experience (DX) tooling:
 
-<br>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/operating-model.svg?v=6" width="100%" alt="Operational Segregation Flowchart" />
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/operating-model.svg?v=4" width="100%" alt="Operational Segregation Flowchart" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<br><br>
-
-<!-- LIVE OPERATIONS MONITOR -->
 ### 📊 Live Operations Monitor (Cycle Lab)
 
 Below is a live conceptual representation of **Cycle Lab**'s market cycle harmonic wave detection and real-time execution engine logs in action:
 
-<br>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/quant-hud.svg?v=6" width="100%" alt="Cycle Lab Operations Monitor HUD" />
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/quant-hud.svg?v=4" width="100%" alt="Cycle Lab Operations Monitor HUD" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<br>
-
-<!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
-
-<br>
-
-<!-- TECH STACK SECTION (developer-icons + brand SVG fallbacks) -->
 ### 🛠️ Tech Stack & Ecosystem
 
 Here is a structured look at the technologies, engines, and utilities I leverage. All icons use original brand colors and link to their official documentation gateways:
 
-<table width="100%" border="0" cellspacing="0" cellpadding="5">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>💻 Languages & Dialects</h4>
-      <p>
-        <a href="https://www.python.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/python.svg" width="22" height="22" alt="" />Python</a>
-        <a href="https://www.rust-lang.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/rust" width="22" height="22" alt="" />Rust</a>
-        <a href="https://www.typescriptlang.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/typescript.svg" width="22" height="22" alt="" />TypeScript</a>
-        <a href="https://www.gnu.org/software/bash/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/bash.svg" width="22" height="22" alt="" />Bash</a>
-        <a href="https://www.tradingview.com/pine-script-docs/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/tradingview" width="22" height="22" alt="" />Pine Script</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ Frameworks & Engines</h4>
-      <p>
-        <a href="https://fastapi.tiangolo.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/fast-api.svg" width="22" height="22" alt="" />FastAPI</a>
-        <a href="https://vuejs.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vuejs.svg" width="22" height="22" alt="" />Vue.js</a>
-        <a href="https://vite.dev/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vitejs.svg" width="22" height="22" alt="" />Vite</a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🗄️ Databases & Vector Storage</h4>
-      <p>
-        <a href="https://www.postgresql.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/postgresql.svg" width="22" height="22" alt="" />PostgreSQL</a>
-        <a href="https://www.sqlite.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" height="22" alt="" />SQLite</a>
-        <a href="https://github.com/pgvector/pgvector" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/icons/pgvector.svg" width="22" height="22" alt="" />pgvector</a>
-        <a href="https://redis.io/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/redis.svg" width="22" height="22" alt="" />Redis</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🐳 Infrastructure & DevOps</h4>
-      <p>
-        <a href="https://www.docker.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/docker.svg" width="22" height="22" alt="" />Docker</a>
-        <a href="https://docs.docker.com/compose/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/docker/compose/master/logo.svg" width="22" height="22" alt="" />Docker Compose</a>
-        <a href="https://www.linux.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/linux.svg" width="22" height="22" alt="" />Linux</a>
-        <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_WSL_Square44x44Logo.altform-lightunplated_targetsize-256.svg" height="22" alt="" />WSL</a>
-        <a href="https://git-scm.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/git.svg" width="22" height="22" alt="" />Git</a>
-      </p>
-    </td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/tech-stack-grid.svg?v=6" width="100%" alt="Tech Stack and Ecosystem Grid" />
 
-<details>
-  <summary>🛠️ <strong>Click to Expand: Favorite Workspace Tools</strong></summary>
-  <br>
-  <p>
-    <a href="https://code.visualstudio.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vscode.svg" width="22" height="22" alt="" />VS Code</a>
-    <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/tradingview" width="22" height="22" alt="" />TradingView @AnDr3HA</a>
-    <a href="https://alpinelinux.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/alpinelinux" width="22" height="22" alt="" />Alpine Linux</a>
-    <a href="https://www.anthropic.com/claude" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/claude-ai.svg" width="22" height="22" alt="" />Claude AI</a>
-  </p>
-</details>
+<p align="center">
+  <a href="https://www.python.org/" target="_blank">Python</a> ·
+  <a href="https://www.rust-lang.org/" target="_blank">Rust</a> ·
+  <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> ·
+  <a href="https://www.gnu.org/software/bash/" target="_blank">Bash</a> ·
+  <a href="https://www.tradingview.com/pine-script-docs/" target="_blank">Pine Script</a> ·
+  <a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI</a> ·
+  <a href="https://vuejs.org/" target="_blank">Vue.js</a> ·
+  <a href="https://vite.dev/" target="_blank">Vite</a> ·
+  <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> ·
+  <a href="https://www.sqlite.org/" target="_blank">SQLite</a> ·
+  <a href="https://github.com/pgvector/pgvector" target="_blank">pgvector</a> ·
+  <a href="https://redis.io/" target="_blank">Redis</a> ·
+  <a href="https://www.docker.com/" target="_blank">Docker</a> ·
+  <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose</a> ·
+  <a href="https://www.linux.org/" target="_blank">Linux</a> ·
+  <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank">WSL</a> ·
+  <a href="https://git-scm.com/" target="_blank">Git</a> ·
+  <a href="https://code.visualstudio.com/" target="_blank">VS Code</a> ·
+  <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank">TradingView</a> ·
+  <a href="https://alpinelinux.org/" target="_blank">Alpine Linux</a> ·
+  <a href="https://www.anthropic.com/claude" target="_blank">Claude AI</a>
+</p>
 
-<br>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
-
-<br>
-
-<!-- OPERATIONAL TELEMETRY -->
 ### 📊 Operational Telemetry & Activity
 
 Local-first workflow — public GitHub shows OSS DX tooling only; proprietary quant code stays private.
 
-<br>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/telemetry-dashboard.svg?v=6" width="100%" alt="Operational Telemetry Dashboard" />
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -237,27 +153,14 @@ Local-first workflow — public GitHub shows OSS DX tooling only; proprietary qu
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=andreafinazziinfo&theme=dark&background=0b0f19&ring=09F1B8&fire=8B5CF6&currStreakLabel=09F1B8&sideLabels=cbd5e1&dates=64748b&hide_border=true" width="100%" alt="Contribution Streak" />
     </td>
   </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=andreafinazziinfo&bg_color=0b0f19&color=09F1B8&line=8B5CF6&point=cbd5e1&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
-    </td>
-  </tr>
 </table>
-
-<br>
 
 - **Primary Workspace:** Isolated local Docker-first environments.
 - **Open-Source Access:** Selective utilities and workflow enhancers.
 - **Operational Cadence:** Continuous local integration and automated validation.
 
-<br>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
-<!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
-
-<br>
-
-<!-- SECURE SECRETS / CONTACT -->
 ### ✉️ Contacts & Gateways
 
 *   **Official Gateway:** [andreafinazzi.com](https://andreafinazzi.com)

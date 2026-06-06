@@ -1,19 +1,17 @@
 <!-- HERO BANNER SECTION -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/hero-banner.svg?v=4" width="100%" alt="Andrea Finazzi - Quantitative Architect &amp; Systems Builder" />
-  
-  <br><br>
+  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/hero-banner.svg?v=6" width="100%" alt="Andrea Finazzi - Quantitative Architect &amp; Systems Builder" />
 
-  <!-- Quick Action Badges -->
+  <!-- Quick Action Chips -->
   <p align="center">
-    <a href="https://andreafinazzi.com"><img src="https://img.shields.io/badge/Web-andreafinazzi.com-09F1B8?style=flat-square&logo=google-chrome&logoColor=black" alt="Website Portal" /></a>
-    &nbsp;&nbsp;
-    <a href="mailto:andrea.finazzi.info@gmail.com"><img src="https://img.shields.io/badge/Email-andrea.finazzi.info-8B5CF6?style=flat-square&logo=gmail&logoColor=white" alt="Secure Email" /></a>
+    <a href="https://andreafinazzi.com" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:8px 6px;padding:6px 12px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/googlechrome" width="20" height="20" alt="" />andreafinazzi.com</a>
+    <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:8px 6px;padding:6px 12px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/tradingview" width="20" height="20" alt="" />TradingView @AnDr3HA</a>
+    <a href="mailto:andrea.finazzi.info@gmail.com" style="display:inline-flex;align-items:center;gap:8px;margin:8px 6px;padding:6px 12px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/gmail" width="20" height="20" alt="" />andrea.finazzi.info@gmail.com</a>
   </p>
 </div>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -41,35 +39,36 @@ I engineer robust quantitative software environments centered around a **self-re
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
 <br>
 
 <!-- CORE CAPABILITIES GRID -->
 ### 🛠️ Core Capabilities & Systems
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/capabilities-grid.svg?v=4" width="100%" alt="Core Capabilities &amp; Systems Dashboard" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/capabilities-grid.svg?v=6" width="100%" alt="Core Capabilities &amp; Systems Dashboard" />
 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
 <br>
 
-<!-- FEATURED PUBLIC PROJECT SPOTLIGHT -->
-### 🔌 Featured Public Project
+### 🔌 Featured Public Projects
 
-<div align="center">
-  <a href="https://github.com/andreafinazziinfo/claude-statusline-pro">
-    <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project.svg?v=4" width="100%" alt="Featured Public Project: claude-statusline-pro" />
-  </a>
-</div>
+<a href="https://github.com/andreafinazziinfo/claude-statusline-pro">
+  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project.svg?v=6" width="100%" alt="Featured Public Project: claude-statusline-pro" />
+</a>
+
+<a href="https://github.com/andreafinazziinfo/matassa-cycle-framework">
+  <img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/featured-project-matassa.svg?v=6" width="100%" alt="Featured Public Project: matassa-cycle-framework" />
+</a>
 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -80,7 +79,7 @@ I structure my systems around an absolute segregation between trading execution 
 
 <br>
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/operating-model.svg?v=4" width="100%" alt="Operational Segregation Flowchart" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/operating-model.svg?v=6" width="100%" alt="Operational Segregation Flowchart" />
 
 <br><br>
 
@@ -91,79 +90,49 @@ Below is a live conceptual representation of **Cycle Lab**'s market cycle harmon
 
 <br>
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/quant-hud.svg?v=4" width="100%" alt="Cycle Lab Operations Monitor HUD" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/quant-hud.svg?v=6" width="100%" alt="Cycle Lab Operations Monitor HUD" />
 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
 <br>
 
-<!-- TECH STACK SECTION (developer-icons + brand SVG fallbacks) -->
 ### 🛠️ Tech Stack & Ecosystem
 
 Here is a structured look at the technologies, engines, and utilities I leverage. All icons use original brand colors and link to their official documentation gateways:
 
-<table width="100%" border="0" cellspacing="0" cellpadding="5">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>💻 Languages & Dialects</h4>
-      <p>
-        <a href="https://www.python.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/python.svg" width="22" height="22" alt="" />Python</a>
-        <a href="https://www.rust-lang.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/rust" width="22" height="22" alt="" />Rust</a>
-        <a href="https://www.typescriptlang.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/typescript.svg" width="22" height="22" alt="" />TypeScript</a>
-        <a href="https://www.gnu.org/software/bash/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/bash.svg" width="22" height="22" alt="" />Bash</a>
-        <a href="https://www.tradingview.com/pine-script-docs/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/tradingview" width="22" height="22" alt="" />Pine Script</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚡ Frameworks & Engines</h4>
-      <p>
-        <a href="https://fastapi.tiangolo.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/fast-api.svg" width="22" height="22" alt="" />FastAPI</a>
-        <a href="https://vuejs.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vuejs.svg" width="22" height="22" alt="" />Vue.js</a>
-        <a href="https://vite.dev/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vitejs.svg" width="22" height="22" alt="" />Vite</a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🗄️ Databases & Vector Storage</h4>
-      <p>
-        <a href="https://www.postgresql.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/postgresql.svg" width="22" height="22" alt="" />PostgreSQL</a>
-        <a href="https://www.sqlite.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" height="22" alt="" />SQLite</a>
-        <a href="https://github.com/pgvector/pgvector" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/icons/pgvector.svg" width="22" height="22" alt="" />pgvector</a>
-        <a href="https://redis.io/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/redis.svg" width="22" height="22" alt="" />Redis</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🐳 Infrastructure & DevOps</h4>
-      <p>
-        <a href="https://www.docker.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/docker.svg" width="22" height="22" alt="" />Docker</a>
-        <a href="https://docs.docker.com/compose/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/docker/compose/master/logo.svg" width="22" height="22" alt="" />Docker Compose</a>
-        <a href="https://www.linux.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/linux.svg" width="22" height="22" alt="" />Linux</a>
-        <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_WSL_Square44x44Logo.altform-lightunplated_targetsize-256.svg" height="22" alt="" />WSL</a>
-        <a href="https://git-scm.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/git.svg" width="22" height="22" alt="" />Git</a>
-      </p>
-    </td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/tech-stack-grid.svg?v=6" width="100%" alt="Tech Stack and Ecosystem Grid" />
 
-<details>
-  <summary>🛠️ <strong>Click to Expand: Favorite Workspace Tools</strong></summary>
-  <br>
-  <p>
-    <a href="https://code.visualstudio.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vscode.svg" width="22" height="22" alt="" />VS Code</a>
-    <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/tradingview" width="22" height="22" alt="" />TradingView @AnDr3HA</a>
-    <a href="https://alpinelinux.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/alpinelinux" width="22" height="22" alt="" />Alpine Linux</a>
-    <a href="https://www.anthropic.com/claude" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/claude-ai.svg" width="22" height="22" alt="" />Claude AI</a>
-  </p>
-</details>
+<p align="center">
+  <a href="https://www.python.org/" target="_blank">Python</a> ·
+  <a href="https://www.rust-lang.org/" target="_blank">Rust</a> ·
+  <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> ·
+  <a href="https://www.gnu.org/software/bash/" target="_blank">Bash</a> ·
+  <a href="https://www.tradingview.com/pine-script-docs/" target="_blank">Pine Script</a> ·
+  <a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI</a> ·
+  <a href="https://vuejs.org/" target="_blank">Vue.js</a> ·
+  <a href="https://vite.dev/" target="_blank">Vite</a> ·
+  <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> ·
+  <a href="https://www.sqlite.org/" target="_blank">SQLite</a> ·
+  <a href="https://github.com/pgvector/pgvector" target="_blank">pgvector</a> ·
+  <a href="https://redis.io/" target="_blank">Redis</a> ·
+  <a href="https://www.docker.com/" target="_blank">Docker</a> ·
+  <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose</a> ·
+  <a href="https://www.linux.org/" target="_blank">Linux</a> ·
+  <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank">WSL</a> ·
+  <a href="https://git-scm.com/" target="_blank">Git</a> ·
+  <a href="https://code.visualstudio.com/" target="_blank">VS Code</a> ·
+  <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank">TradingView</a> ·
+  <a href="https://alpinelinux.org/" target="_blank">Alpine Linux</a> ·
+  <a href="https://www.anthropic.com/claude" target="_blank">Claude AI</a>
+</p>
 
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
 <br>
 
@@ -174,9 +143,18 @@ I operate a local-first, high-security workflow. My public GitHub profile reflec
 
 <br>
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/telemetry-dashboard.svg?v=4" width="100%" alt="Operational Telemetry &amp; Activity Dashboard" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/telemetry-dashboard.svg?v=6" width="100%" alt="Operational Telemetry &amp; Activity Dashboard" />
 
-<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=andreafinazziinfo&show_icons=true&theme=transparent&bg_color=0b0f19&title_color=09F1B8&text_color=cbd5e1&icon_color=8B5CF6&hide_border=true&include_all_commits=true&count_private=false" width="100%" alt="GitHub Stats" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=andreafinazziinfo&theme=dark&background=0b0f19&ring=09F1B8&fire=8B5CF6&currStreakLabel=09F1B8&sideLabels=cbd5e1&dates=64748b&hide_border=true" width="100%" alt="Contribution Streak" />
+    </td>
+  </tr>
+</table>
 
 - **Primary Workspace:** Isolated local Docker-first environments.
 - **Open-Source Access:** Selective utilities and workflow enhancers.
@@ -185,7 +163,7 @@ I operate a local-first, high-security workflow. My public GitHub profile reflec
 <br>
 
 <!-- Dynamic Divider -->
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=4" width="100%" alt="Visual Separator" />
+<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/divider.svg?v=6" width="100%" alt="Visual Separator" />
 
 <br>
 
