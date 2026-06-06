@@ -103,31 +103,60 @@ Below is a live conceptual representation of **Cycle Lab**'s market cycle harmon
 
 Here is a structured look at the technologies, engines, and utilities I leverage. All icons use original brand colors and link to their official documentation gateways:
 
-<img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/tech-stack-grid.svg?v=6" width="100%" alt="Tech Stack and Ecosystem Grid" />
-
-<p align="center">
-  <a href="https://www.python.org/" target="_blank">Python</a> ·
-  <a href="https://www.rust-lang.org/" target="_blank">Rust</a> ·
-  <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> ·
-  <a href="https://www.gnu.org/software/bash/" target="_blank">Bash</a> ·
-  <a href="https://www.tradingview.com/pine-script-docs/" target="_blank">Pine Script</a> ·
-  <a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI</a> ·
-  <a href="https://vuejs.org/" target="_blank">Vue.js</a> ·
-  <a href="https://vite.dev/" target="_blank">Vite</a> ·
-  <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> ·
-  <a href="https://www.sqlite.org/" target="_blank">SQLite</a> ·
-  <a href="https://github.com/pgvector/pgvector" target="_blank">pgvector</a> ·
-  <a href="https://redis.io/" target="_blank">Redis</a> ·
-  <a href="https://www.docker.com/" target="_blank">Docker</a> ·
-  <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose</a> ·
-  <a href="https://www.linux.org/" target="_blank">Linux</a> ·
-  <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank">WSL</a> ·
-  <a href="https://git-scm.com/" target="_blank">Git</a> ·
-  <a href="https://code.visualstudio.com/" target="_blank">VS Code</a> ·
-  <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank">TradingView</a> ·
-  <a href="https://alpinelinux.org/" target="_blank">Alpine Linux</a> ·
-  <a href="https://www.anthropic.com/claude" target="_blank">Claude AI</a>
-</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>💻 Languages & Dialects</h4>
+      <p>
+        <a href="https://www.python.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/python.svg" width="22" height="22" alt="" />Python</a>
+        <a href="https://www.rust-lang.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/rust" width="22" height="22" alt="" />Rust</a>
+        <a href="https://www.typescriptlang.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/typescript.svg" width="22" height="22" alt="" />TypeScript</a>
+        <a href="https://www.gnu.org/software/bash/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/bash.svg" width="22" height="22" alt="" />Bash</a>
+        <a href="https://www.tradingview.com/pine-script-docs/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/tradingview" width="22" height="22" alt="" />Pine Script</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ Frameworks & Engines</h4>
+      <p>
+        <a href="https://fastapi.tiangolo.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/fast-api.svg" width="22" height="22" alt="" />FastAPI</a>
+        <a href="https://vuejs.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vuejs.svg" width="22" height="22" alt="" />Vue.js</a>
+        <a href="https://vite.dev/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vitejs.svg" width="22" height="22" alt="" />Vite</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🗄️ Databases & Vector Storage</h4>
+      <p>
+        <a href="https://www.postgresql.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/postgresql.svg" width="22" height="22" alt="" />PostgreSQL</a>
+        <a href="https://www.sqlite.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" width="46" height="22" alt="" />SQLite</a>
+        <a href="https://github.com/pgvector/pgvector" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/andreafinazziinfo/andreafinazziinfo/main/icons/pgvector.svg" width="22" height="22" alt="" />pgvector</a>
+        <a href="https://redis.io/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/redis.svg" width="22" height="22" alt="" />Redis</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🐳 Infrastructure & DevOps</h4>
+      <p>
+        <a href="https://www.docker.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/docker.svg" width="22" height="22" alt="" />Docker</a>
+        <a href="https://docs.docker.com/compose/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/docker/compose/master/logo.svg" width="22" height="22" alt="" />Docker Compose</a>
+        <a href="https://www.linux.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/linux.svg" width="22" height="22" alt="" />Linux</a>
+        <a href="https://learn.microsoft.com/en-us/windows/wsl/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_WSL_Square44x44Logo.altform-lightunplated_targetsize-256.svg" width="17" height="22" alt="" />WSL</a>
+        <a href="https://git-scm.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/git.svg" width="22" height="22" alt="" />Git</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4>🧰 Favorite Workspace Tools</h4>
+      <p>
+        <a href="https://code.visualstudio.com/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/vscode.svg" width="22" height="22" alt="" />VS Code</a>
+        <a href="https://www.tradingview.com/u/AnDr3HA/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/tradingview" width="22" height="22" alt="" />TradingView @AnDr3HA</a>
+        <a href="https://alpinelinux.org/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://cdn.simpleicons.org/alpinelinux" width="22" height="22" alt="" />Alpine Linux</a>
+        <a href="https://www.anthropic.com/claude" target="_blank" style="display:inline-flex;align-items:center;gap:8px;margin:6px 14px 6px 0;padding:6px 10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:14px;"><img src="https://raw.githubusercontent.com/xandemon/developer-icons/main/icons/claude-ai.svg" width="22" height="22" alt="" />Claude AI</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
